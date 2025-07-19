@@ -3,9 +3,9 @@
   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
   SPDX-License-Identifier: CC-BY-SA-4.0
 
-=================
-Conjuntos y Mapas
-=================
+=====================
+05. Conjuntos y Mapas
+=====================
 
 .. topic:: Objetivo general
     :class: objetivo
