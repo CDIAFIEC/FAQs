@@ -1,0 +1,13 @@
+..
+  Copyright (c) 2025 Allan Avendaño Sudario
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+=====
+Pilas
+=====
+
+.. topic:: Objetivo general
+    :class: objetivo
+
+    Comprender el concepto de pila mediante la implementación de sus operaciones básicas y el desarrollo de algoritmos y aplicaciones que utilicen esta estructura para resolver problemas que requieren un control estricto del orden de acceso a los datos.
