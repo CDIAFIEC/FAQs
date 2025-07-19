@@ -2,12 +2,15 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Estructuras de Datos'	
+copyright = '2025, ED'
+author = 'Allan Avendaño'
 
 release = '0.1'
 version = '0.1.0'
+
+html_title = project
+# html_logo = "_static/img/myimage.png"
 
 # -- General configuration
 
@@ -17,6 +20,11 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
+    'sphinx_tabs.tabs',
+    "sphinx_design",
+    "sphinx_design_elements",
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
@@ -29,7 +37,23 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'	
+
+html_theme_options = {
+    "use_sidenotes": True,
+    "rightsidebar": True
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+#html_css_files = [
+#    'css/style.css',
+#]
+
