@@ -1,0 +1,13 @@
+..
+  Copyright (c) 2025 Allan Avendaño Sudario
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+=======
+Árboles
+=======
+
+.. topic:: Objetivo general
+    :class: objetivo
+
+    Comprender las estructuras arbóreas mediante la implementación de árboles binarios árboles binarios de búsqueda árboles balanceados con rotaciones y árboles heap así como la aplicación de recorridos en anchura y profundidad para optimizar la organización el acceso y la manipulación de datos jerárquicos en soluciones computacionales.
