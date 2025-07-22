@@ -33,34 +33,47 @@ Los datos se classifican en diferentes tipos según sus características y la fo
        (e.g., -2, -1, 0, 1, 2, ...)
      - 
        .. code-block:: java
-          :linenos:
-
+          
           int edad = 20;
           int saldo = -150;
-          
+
      - Suma (+), Resta (-),  
        Multiplicación (*),  
        División (/), Módulo (%)
    * - Reales
      - Números con parte decimal  
        (e.g., -3.14, 0.0, 2.718)
-     - `double pi = 3.1416;`  
-       `float temp = -2.5f;`
+     -
+       .. code-block:: java
+
+          double pi = 3.1416;
+          float temp = -2.5f;
+
      - Suma (+), Resta (-),  
        Multiplicación (*),  
        División (/)
    * - Lógicos
      - Verdadero o falso  
        (`true`, `false`)
-     - `boolean activo = true;`  
-       `boolean esMayor = false;`
-     - AND (&&), OR (||),  
+     -
+
+       .. code-block:: java
+
+          boolean activo = true;
+          boolean esMayor = false;
+
+     - AND (&&), OR (||),
        NOT (!)
    * - Caracteres
      - Cualquier carácter Unicode  
        (e.g., 'a', 'Z', '9', '#')
-     - `char letra = 'A';`  
-       `char simbolo = '$';`
+     -
+
+       .. code-block:: java
+
+          char inicial = 'A';
+          char numero = '5';
+          
      - Comparación (<, >, ==),  
        Concatenación con strings,  
        Conversión a entero (cast)
