@@ -151,6 +151,14 @@ Tipos de Datos Abstractos (TDA)
 Abstracción
 ^^^^^^^^^^^
 
+La abstracción es un principio fundamental en la programación que permite simplificar la complejidad al ocultar los detalles de implementación y enfocarse en las características esenciales de un objeto o sistema. 
+
+.. note::
+  
+    Es más importante el **¿Qué hace?** en lugar de **¿Cómo lo hace?**.
+
+En el contexto de los tipos de datos abstractos (TDA), la abstracción se utiliza para definir estructuras de datos y operaciones sin preocuparse por cómo se implementan internamente.
+
 TDA List
 --------
 
