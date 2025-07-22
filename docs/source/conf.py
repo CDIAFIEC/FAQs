@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Estructuras de Datos'	
-copyright = '2025, ED'
+copyright = '2025, Estructuras de Datos'
 author = 'Allan Avendaño'
 
 release = '0.1'
