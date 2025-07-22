@@ -60,6 +60,9 @@ Los datos se classifican en diferentes tipos según sus características y la fo
        Concatenación con strings,  
        Conversión a entero (cast)
 
+Datos primitivos
+^^^^^^^^^^^^^^^^
+
 Datos compuestos
 ^^^^^^^^^^^^^^^^
 
