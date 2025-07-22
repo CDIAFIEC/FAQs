@@ -31,8 +31,13 @@ Los datos se classifican en diferentes tipos según sus características y la fo
    * - Enteros
      - Números sin parte decimal  
        (e.g., -2, -1, 0, 1, 2, ...)
-     - `int edad = 20;`  
-       `int saldo = -150;`
+     - 
+       .. code-block:: java
+          :linenos:
+
+          int edad = 20;
+          int saldo = -150;
+          
      - Suma (+), Resta (-),  
        Multiplicación (*),  
        División (/), Módulo (%)
