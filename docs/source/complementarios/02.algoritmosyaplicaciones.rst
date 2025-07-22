@@ -1,0 +1,13 @@
+..
+  Copyright (c) 2025 Allan Avendaño Sudario
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+=============================
+01. Algoritmos y Aplicaciones
+=============================
+
+.. topic:: Objetivo general
+    :class: objetivo
+
+    Analizar algoritmos y aplicaciones de estructuras de datos mediante la implementación de soluciones que integren las estructuras de datos en contextos de la ciencia de datos e inteligencia artificial para optimizar el procesamiento almacenamiento y análisis eficiente de grandes volúmenes de información.
