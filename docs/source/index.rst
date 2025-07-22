@@ -13,7 +13,7 @@ ESTRUCTURAS DE DATOS - CCPG1804
 
 .. toctree::
   :maxdepth: 1
-  :caption: Temas complementarios
+  :caption: Temas transversales
   :glob:
 
-  complementarios/*
+  transversales/*
