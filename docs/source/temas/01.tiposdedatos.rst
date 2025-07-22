@@ -20,8 +20,10 @@ Tipos de Datos
 
 Los datos se clasifican en diferentes tipos según sus características y la forma en que se utilizan en la programación. En este contexto, los tipos de datos se dividen en:
 
-- **Primitivos**: Son los tipos de datos básicos que representan valores simples. Incluyen enteros, reales, lógicos y caracteres.
-- **Compuestos**: Son aquellos que se construyen a partir de tipos primitivos y pueden contener múltiples valores. Incluyen arreglos, clases y colecciones( listas, conjuntos y mapas).
+- **Primitivos**: Son los tipos de datos básicos que representan valores simples. Incluyen enteros, reales, lógicos y caracteres. Ver la :ref:`tabla_tipos_datos_primitivos_java` para más detalles.
+- **Compuestos**: Son aquellos que se construyen a partir de tipos primitivos y pueden contener múltiples valores. Incluyen arreglos, clases y colecciones( listas, conjuntos y mapas). Ver la :ref:`tabla_tipos_datos_compuestos_java` para más detalles.
+
+.. _tabla_tipos_datos_primitivos_java:
 
 .. list-table:: Tipos de datos primitivos
    :widths: 15 30 30 25
@@ -81,6 +83,7 @@ Los datos se clasifican en diferentes tipos según sus características y la for
        Concatenación con strings,  
        Conversión a entero (cast)
 
+.. _tabla_tipos_datos_compuestos_java:
 
 .. list-table:: Tipos de datos compuestos en Java
    :widths: 15 30 30 25
@@ -115,7 +118,7 @@ Los datos se clasifican en diferentes tipos según sus características y la for
               int edad;
           }
           Persona p = new Persona();
-          
+
      - Acceso a atributos (`p.nombre`),  
        invocación de métodos (`p.saludar()`),  
        creación de instancias (`new`),  
