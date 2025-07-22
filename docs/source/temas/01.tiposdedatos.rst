@@ -11,3 +11,36 @@
     :class: objetivo
 
     Comprender los tipos de datos mediante el análisis de sus atributos y comportamientos así como la aplicación de tipos de datos genéricos para desarrollar soluciones computacionales que promuevan el pensamiento algorítmico y la reutilización del código.
+
+Actividades en clases
+=====================
+
+Tipos de Datos
+--------------
+
+Datos primitivos
+^^^^^^^^^^^^^^^^
+
+Datos compuestos
+^^^^^^^^^^^^^^^^
+
+Tipos de Datos Abstractos (TDA)
+-------------------------------
+
+Abstracción
+^^^^^^^^^^^
+
+TDA List
+--------
+
+ArrayList vs LinkedList
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * Saber
+    * Hacer
+    * Ser
