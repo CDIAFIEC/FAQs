@@ -23,15 +23,13 @@ Los datos se clasifican en diferentes tipos según sus características y la for
 Datos primitivos
 ^^^^^^^^^^^^^^^^
 
-.. sidebar:: Tipos de datos primitivos
-  
-    En Java, los tipos primitivos incluyen enteros, reales, lógicos y caracteres.
-
 Los tipos de datos primitivos son los bloques básicos de construcción en la programación. Representan valores simples y no se pueden descomponer en partes más pequeñas. Ver la :ref:`tabla_tipos_datos_primitivos_java` para más detalles.
+
+En Java, los tipos primitivos incluyen enteros, reales, lógicos y caracteres.
 
 .. _tabla_tipos_datos_primitivos_java:
 
-.. list-table:: Tipos de datos primitivos
+.. list-table:: Tabla con los tipos de datos primitivos
    :widths: 15 30 30 25
    :header-rows: 1
 
@@ -94,13 +92,11 @@ Los tipos de datos primitivos son los bloques básicos de construcción en la pr
 Datos compuestos
 ^^^^^^^^^^^^^^^^
 
-.. sidebar:: Tipos de datos compuestos
-  
-    En Java, los tipos compuestos incluyen arreglos, clases y colecciones.
-
 Los tipos de datos compuestos son estructuras más complejas que se construyen a partir de tipos primitivos. Permiten almacenar múltiples valores y definir comportamientos asociados. Ver la :ref:`tabla_tipos_datos_compuestos_java` para más detalles.
 
-.. list-table:: Tipos de datos compuestos en Java
+En Java, los tipos compuestos incluyen arreglos, clases y colecciones.
+
+.. list-table:: Tabla con los tipos de datos compuestos en Java
    :widths: 15 30 30 25
    :header-rows: 1
 
