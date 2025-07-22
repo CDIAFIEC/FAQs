@@ -18,8 +18,47 @@ Contenidos
 Tipos de Datos
 --------------
 
-Datos primitivos
-^^^^^^^^^^^^^^^^
+Los datos se classifican en diferentes tipos según sus características y la forma en que se utilizan en la programación. En este contexto, los tipos de datos se dividen en:
+
+.. list-table:: Tipos de datos primitivos
+   :widths: 15 30 30 25
+   :header-rows: 1
+
+   * - Tipo de dato
+     - Conjunto de valores
+     - Ejemplos
+     - Operaciones
+   * - Enteros
+     - Números sin parte decimal  
+       (e.g., -2, -1, 0, 1, 2, ...)
+     - `int edad = 20;`  
+       `int saldo = -150;`
+     - Suma (+), Resta (-),  
+       Multiplicación (*),  
+       División (/), Módulo (%)
+   * - Reales
+     - Números con parte decimal  
+       (e.g., -3.14, 0.0, 2.718)
+     - `double pi = 3.1416;`  
+       `float temp = -2.5f;`
+     - Suma (+), Resta (-),  
+       Multiplicación (*),  
+       División (/)
+   * - Lógicos
+     - Verdadero o falso  
+       (`true`, `false`)
+     - `boolean activo = true;`  
+       `boolean esMayor = false;`
+     - AND (&&), OR (||),  
+       NOT (!)
+   * - Caracteres
+     - Cualquier carácter Unicode  
+       (e.g., 'a', 'Z', '9', '#')
+     - `char letra = 'A';`  
+       `char simbolo = '$';`
+     - Comparación (<, >, ==),  
+       Concatenación con strings,  
+       Conversión a entero (cast)
 
 Datos compuestos
 ^^^^^^^^^^^^^^^^
