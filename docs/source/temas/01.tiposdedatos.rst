@@ -85,12 +85,12 @@ Los tipos de datos primitivos son los bloques básicos de construcción en la pr
        Concatenación con strings,  
        Conversión a entero (cast)
 
-.. _tabla_tipos_datos_compuestos_java:
-
 Datos compuestos
 ^^^^^^^^^^^^^^^^
 
 Los tipos de datos compuestos son estructuras más complejas que se construyen a partir de tipos primitivos. Permiten almacenar múltiples valores y definir comportamientos asociados. Ver la :ref:`tabla_tipos_datos_compuestos_java` para más detalles.
+
+.. _tabla_tipos_datos_compuestos_java:
 
 .. list-table:: Tabla con los tipos de datos compuestos en Java
    :widths: 15 30 30 25
