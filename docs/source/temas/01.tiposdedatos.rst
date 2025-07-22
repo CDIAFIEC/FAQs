@@ -18,7 +18,10 @@ Contenidos
 Tipos de Datos
 --------------
 
-Los datos se classifican en diferentes tipos según sus características y la forma en que se utilizan en la programación. En este contexto, los tipos de datos se dividen en:
+Los datos se clasifican en diferentes tipos según sus características y la forma en que se utilizan en la programación. En este contexto, los tipos de datos se dividen en:
+
+- **Primitivos**: Son los tipos de datos básicos que representan valores simples. Incluyen enteros, reales, lógicos y caracteres.
+- **Compuestos**: Son aquellos que se construyen a partir de tipos primitivos y pueden contener múltiples valores. Incluyen arreglos, clases y colecciones( listas, conjuntos y mapas).
 
 .. list-table:: Tipos de datos primitivos
    :widths: 15 30 30 25
@@ -73,10 +76,65 @@ Los datos se classifican en diferentes tipos según sus características y la fo
 
           char inicial = 'A';
           char numero = '5';
-          
+
      - Comparación (<, >, ==),  
        Concatenación con strings,  
        Conversión a entero (cast)
+
+
+.. list-table:: Tipos de datos compuestos en Java
+   :widths: 15 30 30 25
+   :header-rows: 1
+
+   * - Tipo de dato
+     - Conjunto de valores
+     - Ejemplos
+     - Operaciones
+   * - Arreglos
+     - Secuencia de elementos del mismo tipo  
+       con longitud fija
+     - 
+        .. code-block:: java
+  
+            int[] edades = {18, 22, 25};
+            String[] dias = new String[7];
+
+     - Acceso por índice (`arr[i]`),  
+       modificación de valores,  
+       iteración (`for`),  
+       longitud (`arr.length`)
+   * - Clases
+     - Conjunto de atributos y métodos  
+       definidos por el programador  
+       (instancias de objetos)
+     - 
+       .. code-block:: java
+
+          class Persona {
+              String nombre;
+              int edad;
+          }
+          Persona p = new Persona();
+          
+     - Acceso a atributos (`p.nombre`),  
+       invocación de métodos (`p.saludar()`),  
+       creación de instancias (`new`),  
+       herencia y composición
+   * - Colecciones
+     - Estructuras dinámicas  
+       que agrupan elementos (listas,  
+       conjuntos, mapas)
+     - 
+       .. code-block:: java
+
+          List<String> nombres = new ArrayList<>();
+          Set<Integer> numeros = new HashSet<>();
+
+     - Inserción (`add()`),  
+       eliminación (`remove()`),  
+       búsqueda (`contains()`),  
+       iteración (`for-each`)
+
 
 Datos primitivos
 ^^^^^^^^^^^^^^^^
