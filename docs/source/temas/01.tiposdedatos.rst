@@ -179,10 +179,10 @@ La abstracción es un principio fundamental en la programación para simplificar
                 :align: center   
 
 .. graphviz::
-
-   digraph foo {
+  
+    digraph foo {
         "bar" -> "baz";
-   }
+    }
 
 
 Conclusiones
