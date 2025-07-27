@@ -185,7 +185,7 @@ La abstracción es un principio fundamental en la programación para simplificar
     :alt: How Sphinx and GraphViz Render the Final Document
     :align: center
 
-     digraph "sphinx-ext-graphviz" {
+    digraph "sphinx-ext-graphviz" {
          size="6,4";
          rankdir="LR";
          graph [fontname="Verdana", fontsize="12"];
@@ -210,7 +210,7 @@ La abstracción es un principio fundamental en la programación para simplificar
          dot -> svg_file [label=" draw "];
          sphinx -> html_files [label=" render "];
          svg_file -> html_files [style=dashed];
-     }
+    }
 
 Conclusiones
 ============
