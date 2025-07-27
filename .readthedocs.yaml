@@ -8,7 +8,6 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.11"
-    graphviz: "8.0.5"
   jobs:
     post_install:
       - echo ${testitest}
