@@ -20,6 +20,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.graphviz',
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
     "sphinx_design",
@@ -57,3 +58,5 @@ html_static_path = ['_static']
 #    'css/style.css',
 #]
 
+# -- GraphViz configuration ----------------------------------
+graphviz_output_format = 'svg'
