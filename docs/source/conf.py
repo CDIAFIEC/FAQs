@@ -15,14 +15,17 @@ html_title = project
 # -- General configuration
 
 extensions = [
+    "sphinx_immaterial",
+    
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.graphviz',
-    "sphinx_immaterial",
+    # 'sphinx.ext.graphviz',
+
     "sphinx_immaterial.graphviz",
+
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
     "sphinx_design",
@@ -41,7 +44,10 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 # html_theme = 'sphinx_rtd_theme'
-html_theme = 'sphinx_book_theme'	
+# last one
+# html_theme = 'sphinx_book_theme'	
+
+html_theme = 'sphinx_immaterial'
 
 html_theme_options = {
     "use_sidenotes": True,
@@ -61,6 +67,6 @@ html_static_path = ['_static']
 #]
 
 # -- GraphViz configuration ----------------------------------
-graphviz_output_format = 'svg'
+# graphviz_output_format = 'svg'
 
-graphviz_ignore_incorrect_font_metrics = True
+# graphviz_ignore_incorrect_font_metrics = True
