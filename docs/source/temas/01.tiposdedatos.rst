@@ -178,6 +178,35 @@ La abstracción es un principio fundamental en la programación para simplificar
                 :width: 300px
                 :align: center   
 
+.. graphviz::
+
+   digraph {
+     graph [
+       rankdir = LR
+     ]
+
+     node [
+       shape=rectangle
+     ]
+
+     A [label="Start"]
+     B [label="Error?", shape=diamond]
+     C [
+       label="Hmm...",
+       style="solid,filled",
+       fillcolor="var(--md-primary-fg-color, green)"
+     ]
+     D [label="Debug"]
+     E [xref=":py:obj:`~tensorstore_demo.DimensionSelection`"]
+
+     A -> B
+     B -> C [label="Yes"]
+     C -> D
+     D -> B
+     B -> E [label="No"]
+     D -> E [style=invis]
+   }
+
 
 .. graphviz::
 

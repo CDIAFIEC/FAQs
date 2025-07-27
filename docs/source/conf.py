@@ -21,6 +21,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz',
+    "sphinx_immaterial",
+    "sphinx_immaterial.graphviz",
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
     "sphinx_design",
@@ -60,3 +62,5 @@ html_static_path = ['_static']
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
+
+graphviz_ignore_incorrect_font_metrics = True
