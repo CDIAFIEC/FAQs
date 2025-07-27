@@ -157,16 +157,21 @@ Abstracción
 
 La abstracción es un principio fundamental en la programación para simplificar la complejidad de un objeto o sistema. **Menos** detalles de implementación y **más** características esenciales.
 
-.. class:: center
+.. centered:: Piensa en un carro, ¿Qué es un carro? ¿Qué tiene un carro? ¿Qué hace un carro?
 
-    ¿Cómo es carro?
+.. admonition:: Esta es una opción
+    :collapsible: closed
 
-    .. admonition:: Haga click aquí para ver una solución
-        :collapsible: closed
+    .. image:: ../archivos/diseno.webp
+      :width: 300px
+      :align: center
 
-        .. image:: ../archivos/diseno.webp
-          :width: 150px
-          :align: center
+.. admonition:: Esta es otra opción
+    :collapsible: closed
+
+    .. image:: ../archivos/diseno2.avif
+      :width: 300px
+      :align: center
 
 
 TDA List
