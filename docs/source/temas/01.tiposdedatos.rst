@@ -167,7 +167,7 @@ La abstracción es un principio fundamental en la programación para simplificar
 
         .. dropdown:: Esto es un carro
 
-            .. image:: ../archivos/diseno.webp
+            .. image:: ../archivos/carro01.jpg
                 :width: 300px
                 :align: center
 
@@ -175,7 +175,7 @@ La abstracción es un principio fundamental en la programación para simplificar
 
         .. dropdown:: Esto también es un carro
             
-            .. image:: ../archivos/diseno2.avif
+            .. image:: ../archivos/carro02.jpg
                 :width: 300px
                 :align: center   
 
