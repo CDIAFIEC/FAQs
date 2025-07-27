@@ -181,9 +181,18 @@ La abstracción es un principio fundamental en la programación para simplificar
 
 .. graphviz::
 
-   digraph foo {
-      "bar" -> "baz";
-   }
+    digraph foo {
+        "bar" -> "baz";
+    }
+
+.. graphviz::
+
+    digraph example {
+        a [label="sphinx", href="https://www.sphinx-doc.org/", target="_top"];
+        b [label="other"];
+        a -> b;
+    }
+
 
 Conclusiones
 ============
