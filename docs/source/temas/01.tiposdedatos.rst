@@ -155,10 +155,18 @@ Abstracción
   
     Lo más importante el **¿Qué hace?** en lugar de **¿Cómo lo hace?**.
 
-La abstracción es un principio fundamental en la programación que permite simplificar la complejidad al ocultar los detalles de implementación y enfocarse en las características esenciales de un objeto o sistema. 
+La abstracción es un principio fundamental en la programación para simplificar la complejidad de un objeto o sistema. **Menos** detalles de implementación y **más** características esenciales.
 
+.. class:: center
 
+    ¿Cómo es carro?
 
+    .. admonition:: Haga click aquí para ver una solución
+        :collapsible: closed
+
+        .. image:: ../archivos/diseno.webp
+          :width: 150px
+          :align: center
 
 
 TDA List
