@@ -5,5 +5,4 @@ sphinx-book-theme==1.1.4
 sphinx-tabs==3.4.7
 sphinx-design-elements
 btd.sphinx.graphviz
-sphinx-immaterial
 myst-parser==4.0.1
