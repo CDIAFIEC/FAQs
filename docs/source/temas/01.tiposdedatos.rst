@@ -206,6 +206,9 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
         TDA -> representacion;
     }
 
+Ejercicio
+==========
+
 TDA: Carro
 ^^^^^^^^^^
 
@@ -242,7 +245,7 @@ TDA: Carro
             
 
 Clase: Carro
-^^^^^^^^^^
+^^^^^^^^^^^^
 
 En :ref:`implementacion_clase_carro` se muestra una implementación de la clase `Carro` en Java, que representa un TDA Carro. Esta clase define las propiedades y comportamientos del TDA Carro, permitiendo crear instancias de carros y realizar operaciones sobre ellos.:
 
@@ -300,7 +303,7 @@ En :ref:`implementacion_clase_carro` se muestra una implementación de la clase 
             miCarro.frenar();
             System.out.println("Velocidad después de frenar: " + miCarro.getVelocidad() + " km/h");
         }
-        
+
     }
 
 
