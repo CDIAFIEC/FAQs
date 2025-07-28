@@ -244,10 +244,10 @@ TDA: Carro
             7. **Detener**: Detiene el carro.
             
 
-Clase: Carro
-^^^^^^^^^^^^
+Clase: Carro.java
+^^^^^^^^^^^^^^^^^
 
-En la :ref:`implementacion_clase_carro` se definen los atributos y los métodos de la Clase Carro en  en Java, permitiendo crear una instancia de carro y realizar operaciones como acelerar y frenar. 
+En la :ref:`implementacion_clase_carro` se definen los atributos y los métodos de la Clase Carro en Java. Además, un ejemplo de una instancia y el uso de los métodos para acelerar y frenar. 
 
 .. _implementacion_clase_carro:
 
