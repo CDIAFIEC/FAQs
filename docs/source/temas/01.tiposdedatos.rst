@@ -247,12 +247,12 @@ TDA: Carro
 Clase: Carro
 ^^^^^^^^^^^^
 
-En :ref:`implementacion_clase_carro` se muestra una implementación de la clase `Carro` en Java, que representa un TDA Carro. Esta clase define las propiedades y comportamientos del TDA Carro, permitiendo crear instancias de carros y realizar operaciones sobre ellos.:
+En la :ref:`implementacion_clase_carro` se definen los atributos y los métodos de la Clase Carro en  en Java, permitiendo crear una instancia de carro y realizar operaciones como acelerar y frenar. 
 
 .. _implementacion_clase_carro:
 
 .. code-block:: java
-    :caption: Implementación de la clase Carro en Java
+    :caption: Implementación del TDA Carro
 
     /**
      * Clase que representa un Carro.
