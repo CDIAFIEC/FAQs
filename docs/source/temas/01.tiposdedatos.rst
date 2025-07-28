@@ -287,7 +287,9 @@ En :ref:`implementacion_clase_carro` se muestra una implementación de la clase 
     }
 
     public class Main {
+
         public static void main(String[] args) {
+
             // Crear una instancia del TDA Carro
             Carro miCarro = new Carro();
             
@@ -298,6 +300,7 @@ En :ref:`implementacion_clase_carro` se muestra una implementación de la clase 
             miCarro.frenar();
             System.out.println("Velocidad después de frenar: " + miCarro.getVelocidad() + " km/h");
         }
+        
     }
 
 
