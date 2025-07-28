@@ -207,8 +207,8 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
 TDA: Carro
 ^^^^^^^^^^
 
-.. admonition:: Actividad en clases
-
+.. rst-class:: centered
+  
     Piensa en los comportamientos u operaciones y las propiedades o atributos de un **Carro**. 
 
 .. grid:: 1 1 2 2
