@@ -178,16 +178,20 @@ La abstracción es un principio fundamental en la programación para simplificar
                 :width: 300px
                 :align: center   
 
+Composición de un TDA
+^^^^^^^^^^^^^^^^^^^^^
+
 .. graphviz::
     :caption: Composición de un TDA
     :alt: Gráfico con la composición de un TDA
     :align: center
 
-    digraph "tda-composition" {
+    digraph {
         node [shape=box];
+        
         TDA [label="Tipo de Dato Abstracto (TDA)"];
-        operaciones [label="Operaciones"];
-        representacion [label="Representación Interna"];
+        operaciones [label="Comportamiento u operaciones \nLos TDAs existen para proveer operaciones" tooltip="Los TDAs existen para proveer operaciones" ];
+        representacion [label="Propiedades o Atributos \nSe refiere al funcionamiento interno del TDA" tooltip="Se refiere al funcionamiento interno del TDA"];
 
         TDA -> operaciones;
         TDA -> representacion;
