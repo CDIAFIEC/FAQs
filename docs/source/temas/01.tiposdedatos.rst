@@ -328,9 +328,9 @@ Clase: Carro.java
 TDAs y Clases
 ^^^^^^^^^^^^^
 
-1. Implemente un TDA `CuentaBancaria` que tenga las siguientes propiedades: `saldo`, `titular`, y `numeroCuenta`. Defina los métodos para depositar, retirar y consultar el saldo.
-2. Implemente un TDA `Libro` que tenga las propiedades `titulo`, `autor`, y `numeroPaginas`. Defina los métodos para leer una página, obtener información del libro y cambiar el autor.
-3. Implemente el TDA `Biblioteca` que contenga una colección de libros. Defina los métodos para agregar un libro, eliminar un libro y buscar un libro por título.
+1. Implemente un TDA `Libro` que tenga las propiedades `titulo`, `autor`, y `numeroPaginas`. Defina los métodos para leer una página, obtener información del libro y cambiar el autor.
+2. Implemente el TDA `Biblioteca` que contenga una colección de libros. Defina los métodos para agregar un libro, eliminar un libro y buscar un libro por título.
+
 
 Conclusiones
 ============
