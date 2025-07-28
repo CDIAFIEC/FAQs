@@ -249,9 +249,12 @@ Clase: Carro.java
 
 Implemente el TDA Carro en Java, definiendo sus atributos y métodos. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del carro.
 
-Revise la siguiente implementación de la clase Carro en Java.
+Ver :ref:`tda_carro_java` la implementación de la clase Carro en Java.
 
-.. dropdown:: Haga click para ver la implementación de la clase Carro
+.. _tda_carro_java:
+
+.. dropdown:: Solución
+    :caption: Implementación del TDA Carro
     :animate: fade-in-slide-down
     :name: implementacion_clase_carro
 
@@ -314,7 +317,7 @@ Ejercicios
 ==========
 
 Clase: Carro.java
-^^^^^^^^^^^^^^^^^
+------------------
 
 1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
 2. Agregue un método `apagar` que cambie el estado del carro a apagado.
@@ -324,7 +327,7 @@ Clase: Carro.java
 6. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
 
 TDAs y Clases
-^^^^^^^^^^^^^
+--------------
 
 1. Implemente un TDA `Estudiante` que contenga las propiedades `nombre`, `edad` y `promedio`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del estudiante.
 2. Implemente un TDA `Curso` que contenga las propiedades `nombre`, `codigo` y `listaEstudiantes`. Defina métodos para agregar estudiantes, eliminar estudiantes y mostrar la lista de estudiantes inscritos en el curso.
