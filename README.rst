@@ -10,3 +10,22 @@ Contenido de clases para las estructuras:
 5. Conjuntos y Mapas
 6. Árboles
 7. Grafos
+
+Graphviz
+--------
+
+La documentación de `Graphviz <https://graphviz.org/>`_ se encuentra en `Graphviz Documentation <https://graphviz.org/documentation/>`_. Graphviz es una herramienta para crear gráficos a partir de descripciones textuales, lo que permite visualizar estructuras de datos y relaciones de manera clara y concisa.
+
+Con la Galería de Graphviz puedes explorar ejemplos y aprender a crear tus propios gráficos. Puedes acceder a la galería en `Graphviz Gallery <https://graphviz.org/gallery/>`_.
+
+Editor de Graphviz
+------------------
+
+Para editar gráficos de Graphviz, puedes utilizar el `Graphviz Visual Editor <https://magjac.com/graphviz-visual-editor/>`_. Este editor te permite crear y modificar gráficos de manera visual, facilitando la comprensión y edición de estructuras complejas.
+
+Graphviz en Sphinx
+------------------
+
+En `Embedding Graphs Into Your Sphinx Documents <https://jhermann.github.io/blog/python/documentation/2020/03/25/sphinx_ext_graphviz.html>`_ se explica cómo usar Graphviz en Sphinx. Graphviz es una herramienta para crear gráficos a partir de descripciones textuales, lo que permite visualizar estructuras de datos y relaciones de manera clara y concisa.
+
+La documentación del paquete `sphinx.ext.graphviz – Add Graphviz graphs <https://www-sphinx--doc-org.translate.goog/en/master/usage/extensions/graphviz.html>`_.

@@ -181,10 +181,12 @@ La abstracción es un principio fundamental en la programación para simplificar
 Composición de un TDA
 ^^^^^^^^^^^^^^^^^^^^^
 
-Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valores y las operaciones que se pueden realizar sobre esos valores, sin especificar cómo se implementan internamente. Un TDA se compone de dos elementos esenciales, como se muestra en la siguiente imagen:
+Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valores y las operaciones que se pueden realizar sobre esos valores, sin especificar cómo se implementan internamente. Un TDA se compone de dos elementos esenciales, como se muestra en la imagen :ref:`composicion_tda`:
 
 1. **Comportamiento u operaciones**: Define las acciones que se pueden realizar con el TDA, como insertar, eliminar, buscar, etc.
 2. **Propiedades o atributos**: Describe el estado interno del TDA, es decir, cómo se almacenan los datos y cómo se gestionan las operaciones.
+
+.. _composicion_tda:
 
 .. graphviz::
     :caption: Composición de un TDA
