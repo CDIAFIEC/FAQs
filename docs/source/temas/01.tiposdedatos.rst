@@ -249,14 +249,12 @@ Clase: Carro.java
 
 Implemente el TDA Carro en Java, definiendo sus atributos y métodos. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del carro.
 
-Revise :ref:`_implementacion_clase_carro` con la implementación de la clase Carro en Java.
+Revise la siguiente implementación de la clase Carro en Java.
 
 .. dropdown:: Haga click para ver la implementación de la clase Carro
     :animate: fade-in-slide-down
     :name: implementacion_clase_carro
 
-    .. _implementacion_clase_carro:
-    
     .. code-block:: java
         :caption: Implementación del TDA Carro
 
