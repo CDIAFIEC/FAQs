@@ -204,6 +204,34 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
         TDA -> representacion;
     }
 
+TDA: Carro
+^^^^^^^^^^
+
+.. admonition:: Actividad en clases
+
+    Piensa en los comportamientos u operaciones y las propiedades o atributos de un **Carro**. 
+
+.. grid:: 1 1 2 2
+    :gutter: 2
+
+    .. grid-item:: 
+
+        .. dropdown:: Comportamiento u operaciones
+
+            1. **Acelerar**: Incrementa la velocidad del carro.
+            2. **Frenar**: Reduce la velocidad del carro.
+            3. **Girar**: Gira el carro a la izquierda o a la derecha.
+
+    .. grid-item::
+
+        .. dropdown:: Propiedades o atributos
+
+            1. **Velocidad**: La velocidad actual del carro.
+            2. **Color**: El color del carro.
+            3. **Modelo**: El modelo del carro.
+
+
+
 Conclusiones
 ============
 
