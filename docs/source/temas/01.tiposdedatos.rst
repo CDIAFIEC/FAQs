@@ -328,7 +328,7 @@ TDAs y Clases
 
 1. Implemente un TDA `Estudiante` que contenga las propiedades `nombre`, `edad` y `promedio`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del estudiante.
 2. Implemente un TDA `Curso` que contenga las propiedades `nombre`, `codigo` y `listaEstudiantes`. Defina métodos para agregar estudiantes, eliminar estudiantes y mostrar la lista de estudiantes inscritos en el curso.
-2. Implemente un TDA `Profesor` que contenga las propiedades `nombre`, `especialidad` y `listaCursos`. Defina métodos para agregar cursos, eliminar cursos y mostrar la lista de cursos que imparte el profesor.
+3. Implemente un TDA `Profesor` que contenga las propiedades `nombre`, `especialidad` y `listaCursos`. Defina métodos para agregar cursos, eliminar cursos y mostrar la lista de cursos que imparte el profesor.
 
 Conclusiones
 ============
