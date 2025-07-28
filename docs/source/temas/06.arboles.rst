@@ -11,3 +11,17 @@
     :class: objetivo
 
     Comprender las estructuras arbóreas mediante la implementación de árboles binarios árboles binarios de búsqueda árboles balanceados con rotaciones y árboles heap así como la aplicación de recorridos en anchura y profundidad para optimizar la organización el acceso y la manipulación de datos jerárquicos en soluciones computacionales.
+
+Teoría
+======
+
+Ejercicios
+==========
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué son los árboles y cuáles son sus características principales?
+    * ¿Cómo se implementan los árboles binarios y cuáles son sus aplicaciones?

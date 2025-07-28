@@ -11,3 +11,17 @@
     :class: objetivo
 
     Comprender el uso de conjuntos y mapas mediante la implementación de sus operaciones fundamentales la utilización de tablas hash y el manejo de colisiones con técnicas de hashing abierto y cerrado para resolver problemas que requieren almacenamiento y recuperación eficiente de datos únicos y asociados.
+
+Teoría
+======
+
+Ejercicios
+==========
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué son los conjuntos y mapas y cuáles son sus características principales?
+    * ¿Cómo se implementan las operaciones básicas de un conjunto?

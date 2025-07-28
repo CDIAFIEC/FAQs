@@ -11,3 +11,17 @@
     :class: objetivo
 
     Comprender la estructura de grafos mediante la implementación de sus representaciones vértices arcos operaciones recorridos en anchura y profundidad componentes conexas y algoritmos para calcular caminos mínimos y árboles de expansión con el fin de modelar y resolver problemas relacionados con redes y estructuras de datos interconectadas.
+
+Teoría
+======
+
+Ejercicios
+==========
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué es un grafo y cuáles son sus características principales?
+    * ¿Cómo se implementan las representaciones de un grafo y cuáles son sus aplicaciones?

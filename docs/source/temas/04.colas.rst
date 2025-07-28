@@ -11,3 +11,17 @@
     :class: objetivo
 
     Comprender el funcionamiento de las colas mediante la implementación de sus operaciones fundamentales y el análisis de algoritmos que incluyan colas simples colas de prioridad y sus aplicaciones para gestionar procesos en orden de llegada y optimizar recursos en sistemas computacionales.
+
+Teoría
+======
+
+Ejercicios
+==========
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué es una cola y cuáles son sus características principales?
+    * ¿Cómo se implementan las operaciones básicas de una cola?

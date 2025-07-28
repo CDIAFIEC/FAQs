@@ -11,3 +11,19 @@
     :class: objetivo
 
     Analizar las representaciones y operaciones de listas implementadas con arreglos listas simplemente enlazadas listas doblemente enlazadas y listas circulares mediante el diseño y la codificación de algoritmos que permitan resolver problemas computacionales de forma eficiente y estructurada.
+
+Teoría
+======
+
+Ejercicios
+==========
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué son las listas y por qué son importantes en la programación?
+    * ¿Cuáles son las diferencias entre las listas implementadas con arreglos y las listas simplemente enlazadas?
+    * ¿Cuáles son las ventajas y desventajas de usar listas dobles enlazadas en comparación con listas simples?
+    * ¿En qué situaciones sería más apropiado utilizar una lista circular en lugar de una lista lineal?
