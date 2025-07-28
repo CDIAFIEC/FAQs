@@ -1,7 +1,7 @@
 .centered {
     text-align: center;
     font-size: 1.30rem;
-    margin: 2.3rem 12rem;
+    margin: 4rem 2rem;
 }
 
 .centered::before {
