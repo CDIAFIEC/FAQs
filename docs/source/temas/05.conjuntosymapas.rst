@@ -7,7 +7,7 @@
 05. Conjuntos y Mapas
 =====================
 
-.. topic:: Objetivo general
+.. topic:: Objetivo específico
     :class: objetivo
 
     Comprender el uso de conjuntos y mapas mediante la implementación de sus operaciones fundamentales la utilización de tablas hash y el manejo de colisiones con técnicas de hashing abierto y cerrado para resolver problemas que requieren almacenamiento y recuperación eficiente de datos únicos y asociados.

@@ -7,7 +7,7 @@
 07. Grafos
 ==========
 
-.. topic:: Objetivo general
+.. topic:: Objetivo específico
     :class: objetivo
 
     Comprender la estructura de grafos mediante la implementación de sus representaciones vértices arcos operaciones recorridos en anchura y profundidad componentes conexas y algoritmos para calcular caminos mínimos y árboles de expansión con el fin de modelar y resolver problemas relacionados con redes y estructuras de datos interconectadas.

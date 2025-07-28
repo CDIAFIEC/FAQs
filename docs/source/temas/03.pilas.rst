@@ -7,7 +7,7 @@
 03. Pilas
 =========
 
-.. topic:: Objetivo general
+.. topic:: Objetivo específico
     :class: objetivo
 
     Comprender el concepto de pila mediante la implementación de sus operaciones básicas y el desarrollo de algoritmos y aplicaciones que utilicen esta estructura para resolver problemas que requieren un control estricto del orden de acceso a los datos.

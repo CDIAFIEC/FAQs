@@ -7,7 +7,7 @@
 04. Colas
 =========
 
-.. topic:: Objetivo general
+.. topic:: Objetivo específico
     :class: objetivo
 
     Comprender el funcionamiento de las colas mediante la implementación de sus operaciones fundamentales y el análisis de algoritmos que incluyan colas simples colas de prioridad y sus aplicaciones para gestionar procesos en orden de llegada y optimizar recursos en sistemas computacionales.

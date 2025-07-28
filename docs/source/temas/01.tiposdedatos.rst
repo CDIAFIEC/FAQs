@@ -7,7 +7,7 @@
 01. Tipos de Datos
 =================
 
-.. topic:: Objetivo general
+.. topic:: Objetivo específico
     :class: objetivo
 
     Comprender los tipos de datos mediante el análisis de sus atributos y comportamientos así como la aplicación de tipos de datos genéricos para desarrollar soluciones computacionales que promuevan el pensamiento algorítmico y la reutilización del código.
