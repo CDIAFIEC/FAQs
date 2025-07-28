@@ -206,8 +206,8 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
         TDA -> representacion;
     }
 
-Ejercicios
-==========
+Práctica
+========
 
 TDA: Carro
 ^^^^^^^^^^
@@ -312,6 +312,15 @@ Revise la solución en :ref:`implementacion_clase_carro` con la implementación 
 
         }
 
+Ejercicios
+==========
+
+1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
+2. Agregue un método `apagar` que cambie el estado del carro a apagado.
+3. Implemente un método `girar` que cambie la dirección del carro a izquierda o derecha.
+4. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
+5. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
+6. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
 
 Conclusiones
 ============
