@@ -315,12 +315,22 @@ Revise :ref:`_implementacion_clase_carro` con la implementación de la clase Car
 Ejercicios
 ==========
 
+Clase: Carro.java
+^^^^^^^^^^^^^^^^^
+
 1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
 2. Agregue un método `apagar` que cambie el estado del carro a apagado.
 3. Implemente un método `girar` que cambie la dirección del carro a izquierda o derecha.
 4. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
 5. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
 6. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
+
+TDAs y Clases
+^^^^^^^^^^^^^
+
+1. Implemente un TDA `CuentaBancaria` que tenga las siguientes propiedades: `saldo`, `titular`, y `numeroCuenta`. Defina los métodos para depositar, retirar y consultar el saldo.
+2. Implemente un TDA `Libro` que tenga las propiedades `titulo`, `autor`, y `numeroPaginas`. Defina los métodos para leer una página, obtener información del libro y cambiar el autor.
+3. Implemente el TDA `Biblioteca` que contenga una colección de libros. Defina los métodos para agregar un libro, eliminar un libro y buscar un libro por título.
 
 Conclusiones
 ============
