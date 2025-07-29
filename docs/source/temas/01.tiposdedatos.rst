@@ -183,7 +183,7 @@ La abstracción es un principio fundamental en la programación para simplificar
 Composición de un TDA
 ^^^^^^^^^^^^^^^^^^^^^
 
-Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valores y las operaciones que se pueden realizar sobre esos valores, sin especificar cómo se implementan internamente. Un TDA se compone de dos elementos esenciales, como se muestra en la imagen :ref:`composicion_tda`:
+Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valores y las operaciones que se pueden realizar sobre esos valores, sin especificar cómo se implementan internamente. Un TDA se compone de dos elementos esenciales, como se muestra en el :ref:`gráfico con la composición de un TDA <composicion_tda>`:
 
 1. **Comportamiento u operaciones**: Define las acciones que se pueden realizar con el TDA, como insertar, eliminar, buscar, etc.
 2. **Propiedades o atributos**: Describe el estado interno del TDA, es decir, cómo se almacenan los datos y cómo se gestionan las operaciones.
@@ -253,7 +253,7 @@ Implementación: Carro.java
 
 Implemente el TDA Carro, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
 
-A continuación, una posible implementación de la clase :ref:`Carro.java <clase_carro>` en Java.
+A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>` en Java.
 
 .. _clase_carro:
 
@@ -324,7 +324,7 @@ Actividades Virtual Sincrónicas
 Carro.java
 ^^^^^^^^^^
 
-Modifique la implementación del TDA Carro para incluir los siguientes comportamientos y propiedades:
+Modifique la implementación de la clase :ref:`Carro.java <clase_carro>` para incluir los siguientes comportamientos y propiedades:
 
 1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
 2. Agregue un método `apagar` que cambie el estado del carro a apagado.
@@ -339,25 +339,18 @@ Fracción
 
 2. Implemente la clase `Fracción.java` en Java, considerando las características del Paradigma de Programación Orientada a Objetos:
 
-   a) Defina las propiedades y métodos necesarios para el TDA.
+   a) Defina los atributos del TDA. Considere la encapsulación.
    b) Implemente un constructor para inicializar las propiedades del TDA.
-   c) Implemente métodos para acceder y modificar las propiedades del TDA.
-   d) Implemente métodos para realizar las operaciones del TDA.
-   e) Implemente un método para mostrar la información de la fracción.
+   c) Implemente los métodos para acceder y modificar las propiedades del TDA. Considere la encapsulación.
+   d) Implemente un método para mostrar la información de la fracción. 
+   e) Implemente los métodos para realizar las operaciones del TDA.
    f) Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
 
 Actividades Autónomas
 ---------------------
 
-TDAs
-^^^^
-
-Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos: `Rectángulo`, `Libro`, `Estudiante` y `Curso`.
-
-Clases en Java
-^^^^^^^^^^^^^^
-
-Implemente los TDAs con clases en Java, considerando el Paradigma de Programación Orientada a Objetos. 
+1. Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos: `Rectángulo`, `Libro`, `Estudiante` y `Curso`.
+2. Implemente los TDAs mediante clases en Java, considerando el Paradigma de Programación Orientada a Objetos. 
 
 
 Conclusiones
