@@ -48,8 +48,9 @@ A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Ca
         }
     }
 
-Esta implementación es específica para un tipo de dato (en este caso, `String`). 
+.. attention::
 
+    Esta implementación es específica para un tipo de dato (en este caso, `String`). 
 
 .. rst-class:: centered 
   
@@ -103,7 +104,7 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
     public class Main {
         public static void main(String[] args) {
 
-            CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Documentos importantes");
+            CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Aquí comienza el texto de un documento importante ...");
             System.out.println("Documento guardado: " + cajaFuerte.getArticulo());
 
             CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
@@ -120,6 +121,8 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
 
 Práctica
 ========
+
+
 
 Ejercicios
 ==========
