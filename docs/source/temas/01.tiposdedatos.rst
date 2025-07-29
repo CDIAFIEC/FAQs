@@ -210,7 +210,7 @@ Práctica
 ========
 
 TDA: Carro
-^^^^^^^^^^
+----------
 
 .. rst-class:: centered
   
@@ -245,9 +245,9 @@ TDA: Carro
             
 
 Implementación: Carro.java
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
-Implemente el TDA Carro, definiendo sus atributos y métodos. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del carro.
+Implemente el TDA Carro, definiendo sus atributos y métodos. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del carro. Además, considerando el constructor de la clase, la encapsulación de los atributos, los métodos de acceso y modificación necesarios.
 
 A continuación, la implementación del TDA Carro.
 
@@ -312,23 +312,58 @@ A continuación, la implementación del TDA Carro.
 Ejercicios
 ==========
 
-Modificación: Carro.java
-------------------------
+Actividades Virtual Sincrónicas
+-------------------------------
+
+Carro.java
+^^^^^^^^^^
+
+Modifique la implementación del TDA Carro para incluir los siguientes comportamientos y propiedades:
 
 1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
 2. Agregue un método `apagar` que cambie el estado del carro a apagado.
-3. Implemente un método `girar` que cambie la dirección del carro a izquierda o derecha.
-4. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
-5. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
-6. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
+3. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
+4. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
+5. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
 
-TDAs y Clases
---------------
+Fracción
+^^^^^^^^
 
-1. Implemente un TDA `Rectángulo` que contenga las propiedades `base` y `altura`. Defina métodos para calcular el área y el perímetro del rectángulo, así como métodos para acceder y modificar estas propiedades.
-2. Implemente un TDA `Libro` que contenga las propiedades `titulo`, `autor` y `numeroDePaginas`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del libro.
-3. Implemente un TDA `Estudiante` que contenga las propiedades `nombre`, `edad` y `promedio`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del estudiante.
-4. Implemente un TDA `Curso` que contenga las propiedades `nombre`, `codigo` y `listaEstudiantes`. Defina métodos para agregar estudiantes, eliminar estudiantes y mostrar la lista de estudiantes inscritos en el curso.
+1. Diseñe el TDA `Fracción` con las propiedades `numerador` y `denominador`; además, los comportamientos `sumar`, `restar`, `multiplicar` y `dividir` fracciones. Asegúrese de que el denominador no sea cero y simplifique la fracción al máximo.
+2. Implemente la clase `Fracción` en Java, considerando los siguientes puntos:
+   - Defina las propiedades y métodos necesarios para el TDA.
+   - Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción.
+   - Implemente un constructor para inicializar las propiedades del TDA.
+   - Implemente métodos para acceder y modificar las propiedades del TDA.
+   - Implemente métodos para realizar las operaciones del TDA.
+   - Implemente un método para mostrar la información de la fracción.
+   - Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
+
+Actividades Autónomas
+---------------------
+
+TDAs
+^^^^
+
+Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos:
+
+1. Diseñe el TDA `Rectángulo` con las propiedades `base` y `altura`; además, los comportamientos `calcular el área` y `calcular el perímetro` del rectángulo.
+2. Diseñe el TDA `Libro` con las propiedades `titulo`, `autor` y `numeroDePaginas`; además, los comportamientos `mostrar información del libro`.
+3. Diseñe el TDA `Estudiante` con las propiedades `nombre`, `edad` y `promedio`; además, los comportamientos `mostrar información del estudiante`.
+4. Diseñe el TDA `Curso` con las propiedades `nombre`, `codigo` y `listaEstudiantes`; además, los comportamientos `agregar estudiante`, `eliminar estudiante` y `mostrar lista de estudiantes`.
+
+Clases en Java
+^^^^^^^^^^^^^^
+
+Implemente los TDAs con clases en Java, considerando los siguientes puntos:
+
+1. Defina las propiedades y métodos necesarios para el TDA.
+2. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del TDA.
+3. Implemente un constructor para inicializar las propiedades del TDA.
+4. Implemente métodos para acceder y modificar las propiedades del TDA.
+5. Implemente métodos para realizar las operaciones del TDA.
+6. Implemente un método para mostrar la información del TDA.
+7. Implemente un método `main` para crear una instancia del TDA y probar sus métodos. 
 
 
 Conclusiones
