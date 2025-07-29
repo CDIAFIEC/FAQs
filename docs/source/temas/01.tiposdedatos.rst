@@ -251,60 +251,65 @@ Implemente el TDA Carro en Java, definiendo sus atributos y métodos. Asegúrese
 
 A continuación, la implementación de la clase Carro en Java.
 
-.. code-block:: java
+.. dropdown:: Solución
     :caption: Implementación del TDA Carro
+    :animate: fade-in-slide-down
+    :name: implementacion_clase_carro
 
-    /**
-    * Clase que representa un Carro.
-    * Define las propiedades y comportamientos del TDA Carro.
-    */
-    public class Carro {
+    .. code-block:: java
+        :caption: Implementación del TDA Carro
 
-        // Propiedades o atributos
-        private int velocidad;
+        /**
+        * Clase que representa un Carro.
+        * Define las propiedades y comportamientos del TDA Carro.
+        */
+        public class Carro {
 
-        // Constructor
-        public Carro() {
-            this.velocidad = 0; // Inicializa la velocidad a 0
-        }
+            // Propiedades o atributos
+            private int velocidad;
 
-        // Métodos para acceder a las propiedades
-        public int getVelocidad() {
-            return velocidad;
-        }
-        
-        // Métodos para modificar las propiedades
-        public void setVelocidad(int velocidad) {
-            this.velocidad = velocidad;
-        }
-        
-        // Métodos para las operaciones del TDA
+            // Constructor
+            public Carro() {
+                this.velocidad = 0; // Inicializa la velocidad a 0
+            }
 
-        public void acelerar() {
-            velocidad += 10; // Incrementa la velocidad en 10 unidades
-        }
-        public void frenar() {
-            velocidad -= 10; // Reduce la velocidad en 10 unidades
-        }
-        
-    }
-
-    public class Main {
-
-        public static void main(String[] args) {
-
-            // Crear una instancia del TDA Carro
-            Carro miCarro = new Carro();
+            // Métodos para acceder a las propiedades
+            public int getVelocidad() {
+                return velocidad;
+            }
             
-            // Usar los métodos del TDA Carro
-            miCarro.acelerar();
-            System.out.println("Velocidad actual: " + miCarro.getVelocidad() + " km/h");
+            // Métodos para modificar las propiedades
+            public void setVelocidad(int velocidad) {
+                this.velocidad = velocidad;
+            }
             
-            miCarro.frenar();
-            System.out.println("Velocidad después de frenar: " + miCarro.getVelocidad() + " km/h");
+            // Métodos para las operaciones del TDA
+
+            public void acelerar() {
+                velocidad += 10; // Incrementa la velocidad en 10 unidades
+            }
+            public void frenar() {
+                velocidad -= 10; // Reduce la velocidad en 10 unidades
+            }
+            
         }
 
-    }
+        public class Main {
+
+            public static void main(String[] args) {
+
+                // Crear una instancia del TDA Carro
+                Carro miCarro = new Carro();
+                
+                // Usar los métodos del TDA Carro
+                miCarro.acelerar();
+                System.out.println("Velocidad actual: " + miCarro.getVelocidad() + " km/h");
+                
+                miCarro.frenar();
+                System.out.println("Velocidad después de frenar: " + miCarro.getVelocidad() + " km/h");
+            }
+
+        }
 
 
 
