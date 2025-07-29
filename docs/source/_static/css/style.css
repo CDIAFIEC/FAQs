@@ -1,9 +1,13 @@
-.centered {
+.think, .do {
     text-align: center;
     font-size: 1.30rem;
     margin: 4rem 2rem;
 }
 
-.centered::before {
+.think::before {
     content: "🧠" !important;
+}
+
+.do::before {
+    content: "🛠️" !important;
 }

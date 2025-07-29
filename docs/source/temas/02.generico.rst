@@ -52,32 +52,31 @@ A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Ca
 
     Esta implementación es específica para un tipo de dato (en este caso, `String`). 
 
-.. rst-class:: centered 
+.. rst-class:: think 
   
     ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
 
 .. image:: ../archivos/sr-stark-ahora-que-hago.webp
-    :width: 200px
+    :width: 300px
     :align: center
-    
-
-**Solución:** Los tipos genéricos permiten definir clases, interfaces y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
 .. sidebar:: Tipos de parámetros
 
-    Nombres de **tipos de parámetros** más comúnmente usados
-    
-    1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
-    2.  K - Key
-    3.  N - Number
-    4.  T - Type
-    5.  V - Value
-    6.  S,U,V etc. - 2nd, 3rd, 4th types
+    Nombres de **tipos de parámetros** más comúnmente usados:
+
+      1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
+      2.  K - Key
+      3.  N - Number
+      4.  T - Type
+      5.  V - Value
+      6.  S,U,V etc. - 2nd, 3rd, 4th types
 
     Según la convención, los parámetros deben ser letras mayúsculas y simples.
 
-Tipos Genéricos
----------------
+Tipos de Datos Genéricos
+------------------------
+
+Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
 A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo:
 
@@ -122,7 +121,7 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
 Práctica
 ========
 
-.. topic:: Ejercicio práctico
+.. rst-class:: do 
 
     Implemente un TDA genérico en la clase `Nodo.java` que permita almacenar un atributo de cualquier tipo. El TDA debe incluir un constructor y métodos accesores, siguiendo el principio de encapsulación.
 
