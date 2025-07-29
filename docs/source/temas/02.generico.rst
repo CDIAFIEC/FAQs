@@ -63,10 +63,7 @@ A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Ca
 
 **Solución:** Los tipos genéricos permiten definir clases, interfaces y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
-Tipos Genéricos
----------------
-
-.. sidebar:: 
+.. sidebar:: Tipos de parámetros
 
     Nombres de **tipos de parámetros** más comúnmente usados
     
@@ -78,6 +75,9 @@ Tipos Genéricos
     6.  S,U,V etc. - 2nd, 3rd, 4th types
 
     Según la convención, los parámetros deben ser letras mayúsculas y simples.
+
+Tipos Genéricos
+---------------
 
 A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo:
 
@@ -122,16 +122,10 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
 Práctica
 ========
 
+.. topic:: Ejercicio práctico
 
+    Implemente un TDA genérico en la clase `Nodo.java` que permita almacenar un atributo de cualquier tipo. El TDA debe incluir un constructor y métodos accesores, siguiendo el principio de encapsulación.
 
-Ejercicios
-==========
-
-Actividades Virtual Sincrónicas
--------------------------------
-
-Actividades Autónomas
----------------------
 
 Conclusiones
 ============
