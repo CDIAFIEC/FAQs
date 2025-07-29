@@ -252,10 +252,7 @@ Implemente el TDA Carro en Java, definiendo sus atributos y métodos. Asegúrese
 A continuación, la implementación de la clase Carro en Java.
 
 .. dropdown:: Solución
-    :caption: Implementación del TDA Carro
-    :animate: fade-in-slide-down
-    :name: implementacion_clase_carro
-
+    
     .. code-block:: java
         :caption: Implementación del TDA Carro
 
