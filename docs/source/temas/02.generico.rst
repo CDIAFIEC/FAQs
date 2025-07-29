@@ -17,7 +17,7 @@ Teoría
 
 .. rst-class:: centered
 
-    Diseña un el TDA **Caja fuerte** permita guardar un articulo.
+    Diseña el TDA **Caja fuerte** permita guardar un articulo.
 
 A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Caja fuerte en Java:
 
@@ -55,17 +55,30 @@ Esta implementación es específica para un tipo de dato (en este caso, `String`
   
     ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
 
-    .. image:: ../archivos/sr-stark-ahora-que-hago.webp
-                :width: 300px
-                :align: center
+.. image:: ../archivos/sr-stark-ahora-que-hago.webp
+    :width: 20px
+    :align: center
     
+
+**Solución:** Los tipos genéricos permiten definir clases, interfaces y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
 Tipos Genéricos
 ---------------
 
-**Solución:** Los tipos genéricos permiten definir clases, interfaces y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. 
+.. sidebar:: 
 
-A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo **<T>**:
+    Nombres de **tipos de parámetros** más comúnmente usados
+    
+    1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
+    2.  K - Key
+    3.  N - Number
+    4.  T - Type
+    5.  V - Value
+    6.  S,U,V etc. - 2nd, 3rd, 4th types
+
+    Según la convención, los parámetros deben ser letras mayúsculas y simples.
+
+A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo:
 
 .. _solucion_caja_fuerte:
 
