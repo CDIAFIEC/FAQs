@@ -257,7 +257,7 @@ A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>`
 
 .. _clase_carro:
 
-.. dropdown:: Solución del ejercicio
+.. dropdown:: Haga clic para ver la solución
     :animate: fade-in-slide-down
     
     .. code-block:: java
@@ -339,12 +339,11 @@ Fracción
 
 2. Implemente la clase `Fracción.java` en Java, considerando las características del Paradigma de Programación Orientada a Objetos:
 
-   a) Defina los atributos del TDA. Considere la encapsulación.
+   a) Defina los atributos; además, los métodos para acceder y modificar los atributos del TDA. Considere la encapsulación.
    b) Implemente un constructor para inicializar las propiedades del TDA.
-   c) Implemente los métodos para acceder y modificar las propiedades del TDA. Considere la encapsulación.
-   d) Implemente un método para mostrar la información de la fracción. 
-   e) Implemente los métodos para realizar las operaciones del TDA.
-   f) Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
+   c) Implemente un método para mostrar la información de la fracción.
+   d) Implemente los métodos para realizar las operaciones del TDA.
+   e) Implemente un método `main` para crear una instancia de la clase y probar sus métodos.
 
 Actividades Autónomas
 ---------------------
