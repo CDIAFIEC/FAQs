@@ -57,7 +57,7 @@ A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Ca
     ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
 
 .. image:: ../archivos/sr-stark-ahora-que-hago.webp
-    :width: 20px
+    :width: 200px
     :align: center
     
 
