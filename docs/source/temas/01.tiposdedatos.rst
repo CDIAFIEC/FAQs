@@ -254,7 +254,6 @@ A continuación, la :ref:`implementacion_clase_carro` implementación de la clas
 .. dropdown:: Solución del ejercicio
     :caption: Implementación del TDA Carro
     :animate: fade-in-slide-down
-    :name: implementacion_clase_carro
     
     .. code-block:: java
         :caption: Clase Carro.java
