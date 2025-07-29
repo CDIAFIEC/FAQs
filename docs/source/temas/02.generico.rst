@@ -109,7 +109,10 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
             CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
             System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
 
-            CajaFuerte<Joyas> cajaFuerte3 = new CajaFuerte<Joyas>(new Joyas("Anillo de diamantes"));
+            // Asumiendo que Joya es una clase definida previamente
+            Joya joya = new Joya("Anillo de diamantes", 5000.00);
+
+            CajaFuerte<Joya> cajaFuerte3 = new CajaFuerte<Joya>(joya);
             System.out.println("Joya guardada: " + cajaFuerte3.getArticulo().getNombre());
 
         }
