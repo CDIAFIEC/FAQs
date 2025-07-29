@@ -244,18 +244,20 @@ TDA: Carro
             7. **Detener**: Detiene el carro.
             
 
-Clase: Carro.java
-^^^^^^^^^^^^^^^^^
+Implementación: Carro.java
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Implemente el TDA Carro, definiendo sus atributos y métodos. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del carro.
 
-A continuación, la implementación de la clase Carro en Java.
+A continuación, la :ref:`implementacion_clase_carro` se  implementación del TDA Carro.
+
+.. _implementacion_clase_carro:
 
 .. dropdown:: Solución del ejercicio
     :animate: fade-in-slide-down
     
     .. code-block:: java
-        :caption: Clase Carro.java
+        :caption: Carro.java
 
         /**
         * Clase que representa un Carro.
@@ -312,8 +314,8 @@ A continuación, la implementación de la clase Carro en Java.
 Ejercicios
 ==========
 
-Clase: Carro.java
-------------------
+Modificación: Carro.java
+------------------------
 
 1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
 2. Agregue un método `apagar` que cambie el estado del carro a apagado.
