@@ -329,15 +329,22 @@ Modifique la implementación del TDA Carro para incluir los siguientes comportam
 Fracción
 ^^^^^^^^
 
-1. Diseñe el TDA `Fracción` con las propiedades `numerador` y `denominador`; además, los comportamientos `sumar`, `restar`, `multiplicar` y `dividir` fracciones. Asegúrese de que el denominador no sea cero y simplifique la fracción al máximo.
+1. Diseñe el TDA `Fracción` con las propiedades y los comportamientos necesarios, considerando: 
+
+   a) Las para `numerador` y `denominador`, 
+   b) Los comportamientos `sumar`, `restar`, `multiplicar` y `dividir` fracciones. 
+   c) Y, las restricción que el denominador no sea cero y simplifique la fracción al máximo.
+
+
 2. Implemente la clase `Fracción` en Java, considerando los siguientes puntos:
-   - Defina las propiedades y métodos necesarios para el TDA.
-   - Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción.
-   - Implemente un constructor para inicializar las propiedades del TDA.
-   - Implemente métodos para acceder y modificar las propiedades del TDA.
-   - Implemente métodos para realizar las operaciones del TDA.
-   - Implemente un método para mostrar la información de la fracción.
-   - Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
+
+   a) Defina las propiedades y métodos necesarios para el TDA.
+   b) Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción.
+   c) Implemente un constructor para inicializar las propiedades del TDA.
+   d) Implemente métodos para acceder y modificar las propiedades del TDA.
+   e) Implemente métodos para realizar las operaciones del TDA.
+   f) Implemente un método para mostrar la información de la fracción.
+   g) Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
 
 Actividades Autónomas
 ---------------------
@@ -345,12 +352,7 @@ Actividades Autónomas
 TDAs
 ^^^^
 
-Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos:
-
-1. Diseñe el TDA `Rectángulo` con las propiedades `base` y `altura`; además, los comportamientos `calcular el área` y `calcular el perímetro` del rectángulo.
-2. Diseñe el TDA `Libro` con las propiedades `titulo`, `autor` y `numeroDePaginas`; además, los comportamientos `mostrar información del libro`.
-3. Diseñe el TDA `Estudiante` con las propiedades `nombre`, `edad` y `promedio`; además, los comportamientos `mostrar información del estudiante`.
-4. Diseñe el TDA `Curso` con las propiedades `nombre`, `codigo` y `listaEstudiantes`; además, los comportamientos `agregar estudiante`, `eliminar estudiante` y `mostrar lista de estudiantes`.
+Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos: `Rectángulo`, `Libro`, `Estudiante` y `Curso`.
 
 Clases en Java
 ^^^^^^^^^^^^^^
