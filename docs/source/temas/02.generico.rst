@@ -15,6 +15,93 @@
 Teoría
 ======
 
+.. rst-class:: centered
+
+    Diseña un el TDA **Caja fuerte** permita guardar un articulo.
+
+A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Caja fuerte en Java:
+
+.. code-block:: java
+
+    public class CajaFuerte {
+        private String articulo;
+
+        public CajaFuerte(String articulo) {
+            this.articulo = articulo;
+        }
+
+        public void setArticulo(String articulo) {
+            this.articulo = articulo;
+        }
+
+        public String getArticulo() {
+            return this.articulo;
+        }
+    }
+
+    public class Main {
+        public static void main(String[] args) {
+
+            CajaFuerte cajaFuerte = new CajaFuerte("Artículo valioso");
+            System.out.println("Artículo guardado: " + cajaFuerte.getArticulo());
+
+        }
+    }
+
+Esta implementación es específica para un tipo de dato (en este caso, `String`). 
+
+
+.. rst-class:: centered 
+  
+    ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
+
+    .. image:: ../archivos/sr-stark-ahora-que-hago.webp
+                :width: 300px
+                :align: center
+    
+
+Tipos Genéricos
+---------------
+
+**Solución:** Los tipos genéricos permiten definir clases, interfaces y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. 
+
+A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo **<T>**:
+
+.. _solucion_caja_fuerte:
+
+.. code-block:: java
+
+    public class CajaFuerte<T> {
+        private T articulo;
+
+        public CajaFuerte(T articulo) {
+            this.articulo = articulo;
+        }
+
+        public void setArticulo(T articulo) {
+            this.articulo = articulo;
+        }
+
+        public T getArticulo() {
+            return this.articulo;
+        }
+    }
+
+    public class Main {
+        public static void main(String[] args) {
+
+            CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Documentos importantes");
+            System.out.println("Documento guardado: " + cajaFuerte.getArticulo());
+
+            CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
+            System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
+
+            CajaFuerte<Joyas> cajaFuerte3 = new CajaFuerte<Joyas>(new Joyas("Anillo de diamantes"));
+            System.out.println("Joya guardada: " + cajaFuerte3.getArticulo().getNombre());
+
+        }
+    }
+
 Práctica
 ========
 
