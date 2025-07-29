@@ -335,16 +335,16 @@ Modifique la implementación del TDA Carro para incluir los siguientes comportam
 Fracción
 ^^^^^^^^
 
-1. Diseñe el TDA `Fracción` con las propiedades y los comportamientos necesarios.
-2. Implemente la clase `Fracción.java` en Java, considerando los siguientes puntos:
+1. Diseñe el TDA `Fracción` con las propiedades y los comportamientos necesarios. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción
+
+2. Implemente la clase `Fracción.java` en Java, considerando las características del Paradigma de Programación Orientada a Objetos:
 
    a) Defina las propiedades y métodos necesarios para el TDA.
-   b) Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción.
-   c) Implemente un constructor para inicializar las propiedades del TDA.
-   d) Implemente métodos para acceder y modificar las propiedades del TDA.
-   e) Implemente métodos para realizar las operaciones del TDA.
-   f) Implemente un método para mostrar la información de la fracción.
-   g) Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
+   b) Implemente un constructor para inicializar las propiedades del TDA.
+   c) Implemente métodos para acceder y modificar las propiedades del TDA.
+   d) Implemente métodos para realizar las operaciones del TDA.
+   e) Implemente un método para mostrar la información de la fracción.
+   f) Implemente un método `main` para crear una instancia del TDA y probar sus métodos.
 
 Actividades Autónomas
 ---------------------
@@ -357,15 +357,7 @@ Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propieda
 Clases en Java
 ^^^^^^^^^^^^^^
 
-Implemente los TDAs con clases en Java, considerando los siguientes puntos:
-
-1. Defina las propiedades y métodos necesarios para el TDA.
-2. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno del TDA.
-3. Implemente un constructor para inicializar las propiedades del TDA.
-4. Implemente métodos para acceder y modificar las propiedades del TDA.
-5. Implemente métodos para realizar las operaciones del TDA.
-6. Implemente un método para mostrar la información del TDA.
-7. Implemente un método `main` para crear una instancia del TDA y probar sus métodos. 
+Implemente los TDAs con clases en Java, considerando el Paradigma de Programación Orientada a Objetos. 
 
 
 Conclusiones
