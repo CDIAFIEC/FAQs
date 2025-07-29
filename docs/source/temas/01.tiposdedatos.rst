@@ -311,26 +311,7 @@ A continuación, la implementación de la clase Carro en Java.
 
         }
 
-Ejercicios
-==========
 
-Clase: Carro.java
-------------------
-
-1. Implemente un método `encender` en la clase Carro que cambie el estado del carro a encendido.
-2. Agregue un método `apagar` que cambie el estado del carro a apagado.
-3. Implemente un método `girar` que cambie la dirección del carro a izquierda o derecha.
-4. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
-5. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
-6. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
-
-TDAs y Clases
---------------
-
-1. Implemente un TDA `Rectángulo` que contenga las propiedades `base` y `altura`. Defina métodos para calcular el área y el perímetro del rectángulo, así como métodos para acceder y modificar estas propiedades.
-2. Implemente un TDA `Libro` que contenga las propiedades `titulo`, `autor` y `numeroDePaginas`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del libro.
-3. Implemente un TDA `Estudiante` que contenga las propiedades `nombre`, `edad` y `promedio`. Defina métodos para acceder y modificar estas propiedades, así como un método para mostrar la información del estudiante.
-4. Implemente un TDA `Curso` que contenga las propiedades `nombre`, `codigo` y `listaEstudiantes`. Defina métodos para agregar estudiantes, eliminar estudiantes y mostrar la lista de estudiantes inscritos en el curso.
 
 Conclusiones
 ============
