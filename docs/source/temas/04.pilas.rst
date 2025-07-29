@@ -4,7 +4,7 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 =========
-03. Pilas
+04. Pilas
 =========
 
 .. topic:: Objetivo específico

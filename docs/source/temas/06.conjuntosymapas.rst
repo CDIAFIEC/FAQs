@@ -4,7 +4,7 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 =====================
-05. Conjuntos y Mapas
+06. Conjuntos y Mapas
 =====================
 
 .. topic:: Objetivo específico

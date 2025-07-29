@@ -4,7 +4,7 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 ===========
-06. Árboles
+07. Árboles
 ===========
 
 .. topic:: Objetivo específico
