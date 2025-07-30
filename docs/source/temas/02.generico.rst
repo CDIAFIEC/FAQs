@@ -15,7 +15,7 @@
 Teoría
 ======
 
-.. rst-class:: centered
+.. rst-class:: think
 
     Diseña el TDA **Caja fuerte** permita guardar un articulo.
 
@@ -125,6 +125,15 @@ Práctica
 
     Implemente un TDA genérico en la clase `Nodo.java` que permita almacenar un atributo de cualquier tipo. El TDA debe incluir un constructor y métodos accesores, siguiendo el principio de encapsulación.
 
+
+Ejercicios
+==========
+
+Actividades Virtual Sincrónicas
+-------------------------------
+
+Actividades Autónomas
+---------------------
 
 Conclusiones
 ============

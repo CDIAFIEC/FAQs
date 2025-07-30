@@ -202,8 +202,8 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
         operaciones [label="Comportamiento u operaciones \nLos TDAs existen para proveer operaciones" tooltip="Los TDAs existen para proveer operaciones" ];
         representacion [label="Propiedades o Atributos \nSe refiere al funcionamiento interno del TDA" tooltip="Se refiere al funcionamiento interno del TDA"];
 
-        TDA -> operaciones;
         TDA -> representacion;
+        TDA -> operaciones;
     }
 
 Práctica
