@@ -251,7 +251,9 @@ A continuación, una posible composición del :ref:`TDA Carro <tda_carro>`, que 
 Implementación: Carro.java
 ---------------------------
 
-Implemente el TDA Carro, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
+.. rst-class:: do 
+
+    Implemente el TDA Carro, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
 
 A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>` en Java.
 

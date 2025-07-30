@@ -17,36 +17,49 @@ Teoría
 
 .. rst-class:: think
 
-    Diseña el TDA **Caja fuerte** permita guardar un articulo.
+    Diseña el TDA **Caja fuerte** permita guardar un articulo. ¿Qué atributos y métodos consideras necesarios para este TDA? 
 
-A continuación, se muestra un ejemplo de cómo se podría implementar el TDA Caja fuerte en Java:
 
-.. code-block:: java
+.. image:: ../archivos/caja_fuerte.jpeg
+    :width: 300px
+    :align: center
 
-    public class CajaFuerte {
-        private String articulo;
+.. rst-class:: do 
+    Implemente el TDA Caja fuerte, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Caja fuerte y la prueba de sus métodos en el método `main`.    
 
-        public CajaFuerte(String articulo) {
-            this.articulo = articulo;
+A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java.
+
+.. _clase_caja_fuerte:
+
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
+    
+    .. code-block:: java
+
+        public class CajaFuerte {
+            private String articulo;
+
+            public CajaFuerte(String articulo) {
+                this.articulo = articulo;
+            }
+
+            public void setArticulo(String articulo) {
+                this.articulo = articulo;
+            }
+
+            public String getArticulo() {
+                return this.articulo;
+            }
         }
 
-        public void setArticulo(String articulo) {
-            this.articulo = articulo;
+        public class Main {
+            public static void main(String[] args) {
+
+                CajaFuerte cajaFuerte = new CajaFuerte("Artículo valioso");
+                System.out.println("Artículo guardado: " + cajaFuerte.getArticulo());
+
+            }
         }
-
-        public String getArticulo() {
-            return this.articulo;
-        }
-    }
-
-    public class Main {
-        public static void main(String[] args) {
-
-            CajaFuerte cajaFuerte = new CajaFuerte("Artículo valioso");
-            System.out.println("Artículo guardado: " + cajaFuerte.getArticulo());
-
-        }
-    }
 
 .. attention::
 
