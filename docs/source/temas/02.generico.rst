@@ -15,8 +15,7 @@
 Teoría
 ======
 
-.. topic:: Para pensar
-    :class: think
+.. rst-class:: think
 
     Diseña el TDA **Caja fuerte** permita guardar un articulo. ¿Qué atributos y métodos consideras necesarios para este TDA? 
 
@@ -26,8 +25,7 @@ Teoría
 
 Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes.
 
-.. topic:: Para hacer
-    :class: do 
+.. rst-class:: do 
     
     Implemente el TDA Caja fuerte, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Caja fuerte y la prueba de sus métodos en el método `main`.    
 
@@ -69,8 +67,7 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
 
     Esta implementación es específica para un tipo de dato (en este caso, `String`). 
 
-.. topic:: Para pensar
-    :class: think 
+.. rst-class:: think 
   
     ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
 
@@ -139,8 +136,7 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra 
 Práctica
 ========
 
-.. topic:: Para hacer
-    :class: do 
+.. rst-class:: do 
 
     Implemente un TDA genérico en la clase `Nodo.java` que permita almacenar un atributo de cualquier tipo. El TDA debe incluir un constructor y métodos accesores, siguiendo el principio de encapsulación.
 
