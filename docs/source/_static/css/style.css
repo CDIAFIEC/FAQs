@@ -1,14 +1,14 @@
-.think, .do {
+p.think, p.do {
     text-align: center;
     font-size: 1.30rem;
     margin: 4rem 2rem;
 }
 
-.think::before {
+p.think::before {
     content: "🧠" !important;
 }
 
-.do::before {
+p.do::before {
     content: "🛠️" !important;
 }
 
