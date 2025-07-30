@@ -1,4 +1,4 @@
-.think, .do {
+/* .think, .do {
     text-align: center;
     font-size: 1.30rem;
     margin: 4rem 2rem;
@@ -10,4 +10,15 @@
 
 .do::before {
     content: "🛠️" !important;
+} */
+
+
+.think {
+    background-color: #f9ffdc;
+    border-color: #aeb871;
+}
+
+.do {
+    background-color: #ecffed;
+    border-color: #8fb193;
 }
