@@ -13,12 +13,12 @@
 } */
 
 
-.think {
-    background-color: #f9ffdc;
-    border-color: #aeb871;
+aside.think {
+    background-color: #f9ffdc !important;
+    border-color: #aeb871 !important;
 }
 
-.do {
-    background-color: #ecffed;
-    border-color: #8fb193;
+aside.do {
+    background-color: #ecffed !important;
+    border-color: #8fb193 !important;
 }
