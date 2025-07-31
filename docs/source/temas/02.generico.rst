@@ -164,7 +164,6 @@ Práctica
 
     Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo. Implemente el TDA `Nodo` con la clase `Nodo.java`.
 
-
 Ejercicios
 ==========
 
