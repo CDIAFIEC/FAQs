@@ -253,7 +253,7 @@ Implementación: Carro.java
 
 .. rst-class:: do 
 
-    Implemente el TDA Carro con la clase `Carro.java`, de acuerdo con las características del Paradigma de Programación Orientada a Objetos. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
+    Implemente el TDA Carro con la clase `Carro.java`, de acuerdo con las características del :doc:`Paradigma de Programación Orientada a Objetos <../transversales/01.POO>`. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
 
 A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>` en Java.
 

@@ -27,9 +27,9 @@ Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, co
 
 .. rst-class:: do 
     
-    Implemente el TDA Caja fuerte, definiendo sus atributos y métodos.
+    Implemente el TDA Caja fuerte.
 
-A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, con el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Caja fuerte y la prueba de sus métodos en el método `main`.    
+A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`Paradigma de Programación Orientada a Objetos <../transversales/01.POO>`. Además, la instación de un objeto de la clase Caja fuerte y la prueba de sus métodos en el método `main`.    
 
 .. _clase_caja_fuerte:
 
@@ -93,7 +93,7 @@ Tipos de Datos Genéricos
 
 Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
-A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` se muestra cómo se podría implementar el TDA Caja fuerte utilizando tipos genéricos en Java, mediante el uso de parámetros de tipo:
+A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo:
 
 .. _solucion_caja_fuerte:
 
@@ -138,7 +138,7 @@ Práctica
 
 .. rst-class:: do 
 
-    Implemente un TDA genérico en la clase `Nodo.java` que permita almacenar un atributo de cualquier tipo. El TDA debe incluir un constructor y métodos accesores, siguiendo el principio de encapsulación.
+    Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo. Implemente el TDA `Nodo` con la clase `Nodo.java`.
 
 
 Ejercicios
