@@ -84,7 +84,7 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
 .. _tipos_parametros:
 
 .. list-table:: Tipos de Parámetros Genéricos en Java
-   :widths: 10 30 35 45
+   :widths: 10 20 35 55
    :header-rows: 1
 
    * - Parámetro
@@ -92,27 +92,27 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
      - Uso común
      - Ejemplo de código
    * - E
-     - Element
+     - Element (elemento)
      - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
      - ``public class Caja<E> { E elemento; }``
    * - K
-     - Key
+     - Key (clave)
      - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
      - ``Map<K, V> mapa = new HashMap<>();``
    * - N
-     - Number
+     - Number (número)
      - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
      - ``public class Calculadora<N extends Number> {}``
    * - T
-     - Type
+     - Type (tipo)
      - Tipo genérico más común, usado en clases y métodos sin contexto específico.
      - ``public class Generico<T> { T dato; }``
    * - V
-     - Value
+     - Value (valor)
      - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
      - ``Map<K, V> diccionario = new HashMap<>();``
    * - S, U, V, etc.
-     - Second, Third, Fourth types
+     - Second, Third, Fourth types (segundo, tercero, cuarto tipos)
      - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
      - ``public class Par<S, T> { S primero; T segundo; }``
 
