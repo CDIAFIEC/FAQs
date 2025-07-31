@@ -79,35 +79,43 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
 Tipos de Datos Genéricos
 ------------------------
 
-Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :ref:`tipos de parámetros <tipos_parametros>` se utilizan para crear estructuras de datos flexibles y reutilizables.
+Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :ref:`tipos de parámetros <tipos_parametros>` se utilizan para crear estructuras de datos flexibles y reutilizables. Según la convención, los parámetros deben ser letras mayúsculas y simples.
 
 .. _tipos_parametros:
 
 .. list-table:: Tipos de Parámetros Genéricos en Java
-   :widths: 10 40 50
+   :widths: 10 30 35 45
    :header-rows: 1
 
    * - Parámetro
      - Significado
      - Uso común
+     - Ejemplo de código
    * - E
      - Element
      - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
+     - ``public class Caja<E> { E elemento; }``
    * - K
      - Key
      - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
+     - ``Map<K, V> mapa = new HashMap<>();``
    * - N
      - Number
      - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
+     - ``public class Calculadora<N extends Number> {}``
    * - T
      - Type
      - Tipo genérico más común, usado en clases y métodos sin contexto específico.
+     - ``public class Generico<T> { T dato; }``
    * - V
      - Value
      - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
+     - ``Map<K, V> diccionario = new HashMap<>();``
    * - S, U, V, etc.
      - Second, Third, Fourth types
      - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
+     - ``public class Par<S, T> { S primero; T segundo; }``
+
 
 A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo:
 
