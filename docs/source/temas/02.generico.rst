@@ -19,14 +19,12 @@ Teoría
 
     Diseña el TDA **Caja fuerte** permita guardar un articulo. ¿Qué atributos y métodos consideras necesarios para este TDA? 
 
-.. sidebar:: 
+.. sidebar:: Caja fuerte
+    .. image:: ../archivos/caja_fuerte.jpeg
+        :width: 150px
+        :align: center
 
 Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes.
-
-.. image:: ../archivos/caja_fuerte.jpeg
-     :width: 150px
-     :align: center
-
 
 .. rst-class:: do 
     
