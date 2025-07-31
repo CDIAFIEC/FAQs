@@ -79,18 +79,18 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
 Tipos de Datos Genéricos
 ------------------------
 
-Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :ref:`tipos de parámetros <installation:Installation>` se utilizan para crear estructuras de datos flexibles y reutilizables.
+Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :hoverxref:`tipos de parámetros <installation:Installation>` se utilizan para crear estructuras de datos flexibles y reutilizables :doc:`Read the Docs automation rules <readthedocs:automation-rules>`.
 
 .. _installation:Installation:
 
 Nombres de **tipos de parámetros** más comúnmente usados:
 
-    1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
-    2.  K - Key
-    3.  N - Number
-    4.  T - Type
-    5.  V - Value
-    6.  S,U,V etc. - 2nd, 3rd, 4th types
+1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
+2.  K - Key
+3.  N - Number
+4.  T - Type
+5.  V - Value
+6.  S,U,V etc. - 2nd, 3rd, 4th types
 
 Según la convención, los parámetros deben ser letras mayúsculas y simples.
 
