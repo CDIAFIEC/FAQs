@@ -79,20 +79,35 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
 Tipos de Datos Genéricos
 ------------------------
 
-Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :hoverxref:`tipos de parámetros <installation:Installation>` se utilizan para crear estructuras de datos flexibles y reutilizables :doc:`Read the Docs automation rules <readthedocs:automation-rules>`.
+Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En Java, los :ref:`tipos de parámetros <tipos_parametros>` se utilizan para crear estructuras de datos flexibles y reutilizables.
 
-.. _installation:Installation:
+.. _tipos_parametros:
 
-Nombres de **tipos de parámetros** más comúnmente usados:
+.. list-table:: Tipos de Parámetros Genéricos en Java
+   :widths: 10 40 50
+   :header-rows: 1
 
-1.  E - Element (usado ampliamente por el Framework de Collecciones Java)
-2.  K - Key
-3.  N - Number
-4.  T - Type
-5.  V - Value
-6.  S,U,V etc. - 2nd, 3rd, 4th types
-
-Según la convención, los parámetros deben ser letras mayúsculas y simples.
+   * - Parámetro
+     - Significado
+     - Uso común
+   * - E
+     - Element
+     - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
+   * - K
+     - Key
+     - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
+   * - N
+     - Number
+     - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
+   * - T
+     - Type
+     - Tipo genérico más común, usado en clases y métodos sin contexto específico.
+   * - V
+     - Value
+     - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
+   * - S, U, V, etc.
+     - Second, Third, Fourth types
+     - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
 
 A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo:
 
