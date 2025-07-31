@@ -253,7 +253,7 @@ Implementación: Carro.java
 
 .. rst-class:: do 
 
-    Implemente el TDA Carro, definiendo sus atributos y métodos, el constructor de la clase, la encapsulación, los métodos de acceso y modificación necesarios. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
+    Implemente el TDA Carro con la clase `Carro.java`, de acuerdo con las características del Paradigma de Programación Orientada a Objetos. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
 
 A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>` en Java.
 
@@ -339,7 +339,7 @@ Fracción
 
 1. Diseñe el TDA `Fracción` con las propiedades y los comportamientos necesarios. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción
 
-2. Implemente la clase `Fracción.java` en Java, considerando las características del Paradigma de Programación Orientada a Objetos:
+2. Implemente el TDA `Fracción` en la clase `Fracción.java` en Java, de acuerdo con las características del Paradigma de Programación Orientada a Objetos:
 
    a) Defina los atributos; además, los métodos para acceder y modificar los atributos del TDA. Considere la encapsulación.
    b) Implemente un constructor para inicializar las propiedades del TDA.
@@ -351,7 +351,7 @@ Actividades Autónomas
 ---------------------
 
 1. Diseñe los siguientes Tipos de Datos Abstractos (TDA) considerando sus propiedades y comportamientos: `Rectángulo`, `Libro`, `Estudiante` y `Curso`.
-2. Implemente los TDAs mediante clases en Java, considerando el Paradigma de Programación Orientada a Objetos. 
+2. Implemente los TDAs con clases en Java, de acuerdo con las características del Paradigma de Programación Orientada a Objetos. 
 
 
 Conclusiones

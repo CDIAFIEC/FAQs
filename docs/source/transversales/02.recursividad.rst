@@ -4,7 +4,7 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 =================
-01. Recursividad
+02. Recursividad
 =================
 
 .. topic:: Objetivo general
