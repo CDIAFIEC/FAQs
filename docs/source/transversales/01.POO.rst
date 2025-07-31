@@ -90,7 +90,7 @@ Encapsulación
 
 La encapsulación es un principio de la POO que consiste en ocultar los detalles internos de una clase y exponer solo lo necesario a través de métodos públicos. Esto se logra utilizando modificadores de acceso como `private`, `public` y `protected`.
 
-En :term:`encapsulamiento`, los atributos de una clase se declaran como `private`, lo que significa que no pueden ser accedidos directamente desde fuera de la clase. En su lugar, se utilizan métodos públicos para acceder y modificar estos atributos, lo que permite controlar cómo se interactúa con ellos y proteger la integridad del objeto.
+En :ref:`encapsulacion`, los atributos de una clase se declaran como `private`, lo que significa que no pueden ser accedidos directamente desde fuera de la clase. En su lugar, se utilizan métodos públicos para acceder y modificar estos atributos, lo que permite controlar cómo se interactúa con ellos y proteger la integridad del objeto.
 
 .. _encapsulacion:
 
@@ -109,7 +109,7 @@ En :term:`encapsulamiento`, los atributos de una clase se declaran como `private
 Métodos de acceso y modificación 
 ================================
 
-En :ref:`metodos_acceso_modificacion`, se explican los métodos de cceso (getters) y modificación (setters) , que son fundamentales para la encapsulación. Estos métodos permiten interactuar con los atributos privados de una clase sin exponerlos directamente.
+En :ref:`metodos_acceso_modificacion`, se muestran los métodos de acceso (getters) y modificación (setters) de `nombre`, que son fundamentales para la encapsulación. Estos métodos permiten interactuar con los atributos privados de una clase sin exponerlos directamente.
 
 .. _metodos_acceso_modificacion:
 
@@ -119,7 +119,8 @@ En :ref:`metodos_acceso_modificacion`, se explican los métodos de cceso (getter
     public class Perro {
 
         private String nombre;
-
+        ...
+        
         public String getNombre() {
             return nombre;
         }

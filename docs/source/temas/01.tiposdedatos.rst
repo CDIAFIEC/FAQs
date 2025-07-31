@@ -23,7 +23,7 @@ Los datos se clasifican en diferentes tipos según sus características y la for
 Datos primitivos
 ^^^^^^^^^^^^^^^^
 
-Los tipos de datos primitivos son los bloques básicos de construcción en la programación. Representan valores simples y no se pueden descomponer en partes más pequeñas. Ver la :ref:`tabla_tipos_datos_primitivos_java` para más detalles.
+Los tipos de datos primitivos son los bloques básicos de construcción en la programación. Representan valores simples y no se pueden descomponer en partes más pequeñas. En la :ref:`tabla_tipos_datos_primitivos_java` se presentan más detalles.
 
 .. _tabla_tipos_datos_primitivos_java:
 
@@ -88,7 +88,7 @@ Los tipos de datos primitivos son los bloques básicos de construcción en la pr
 Datos compuestos
 ^^^^^^^^^^^^^^^^
 
-Los tipos de datos compuestos son estructuras más complejas que se construyen a partir de tipos primitivos. Permiten almacenar múltiples valores y definir comportamientos asociados. Ver la :ref:`tabla_tipos_datos_compuestos_java` para más detalles.
+Los tipos de datos compuestos son estructuras más complejas que se construyen a partir de tipos primitivos. Permiten almacenar múltiples valores y definir comportamientos asociados. En la :ref:`tabla_tipos_datos_compuestos_java` se presentan más detalles.
 
 .. _tabla_tipos_datos_compuestos_java:
 
