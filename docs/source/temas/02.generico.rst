@@ -22,15 +22,14 @@ Teoría
 .. sidebar:: Caja fuerte
     .. image:: ../archivos/caja_fuerte.jpeg
         :width: 150px
-        :align: center
 
 Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes.
 
-.. rst-class:: do 
-    
-    Implemente el TDA Caja fuerte.
+.. rst-class:: do
 
-A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`POO <../transversales/01.POO>`. Además, la instación de un objeto de la clase Caja fuerte y la prueba de sus métodos en el método `main`.    
+    Implemente el TDA Caja fuerte en Java, con la clase `CajaFuerte.java`.
+
+A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`POO <../transversales/01.POO>`. Además, instancie de un objeto de la clase Caja fuerte y compruebe sus métodos en el método `main`.
 
 .. _clase_caja_fuerte:
 
@@ -76,6 +75,10 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
         :width: 250px
         :align: center
 
+
+Tipos de Datos Genéricos
+------------------------
+
 .. sidebar:: Tipos de parámetros
 
     Nombres de **tipos de parámetros** más comúnmente usados:
@@ -88,9 +91,6 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
       6.  S,U,V etc. - 2nd, 3rd, 4th types
 
     Según la convención, los parámetros deben ser letras mayúsculas y simples.
-
-Tipos de Datos Genéricos
-------------------------
 
 Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código.
 
