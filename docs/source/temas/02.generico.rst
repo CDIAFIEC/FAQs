@@ -28,7 +28,7 @@ Teoría
 
     .. grid-item:: 
         
-        .. image:: ../archivos/caja_fuerte.png
+        .. image:: ../archivos/caja_fuerte.jpeg
             :width: 150px
             :align: center
 
