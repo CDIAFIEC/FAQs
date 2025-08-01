@@ -223,6 +223,46 @@ Práctica
 
     Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo. Implemente el TDA `Nodo` con la clase `Nodo.java`.
 
+Implementación: Nodo.java
+-------------------------
+
+La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos genéricos para crear estructuras de datos flexibles. A continuación, la clase :ref:`Nodo.java <clase_nodo>` con un contenido genérico, que permite almacenar cualquier tipo de dato.
+
+.. _clase_nodo:
+
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
+    
+    .. code-block:: java
+
+        public class Nodo<T> {
+            private T contenido;
+
+            public Nodo(T contenido) {
+                this.contenido = contenido;
+            }
+
+            public T getContenido() {
+                return contenido;
+            }
+
+            public void setContenido(T contenido) {
+                this.contenido = contenido;
+            }
+
+        }
+
+        public class Main {
+
+            public static void main(String[] args) {
+
+                Nodo<String> nodo1 = new Nodo<String>("Primer nodo");
+                
+                System.out.println("Contenido del nodo: " + nodo1.getContenido());
+
+            }
+        }
+
 Ejercicios
 ==========
 
