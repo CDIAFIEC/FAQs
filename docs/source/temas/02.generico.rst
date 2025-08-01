@@ -24,12 +24,12 @@ Teoría
 
     .. grid-item::
         
-        Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes.
+        Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes. No es importante el color, el tamaño o la forma de la caja fuerte, sino que cumpla con su función de proteger el artículo guardado.
 
     .. grid-item:: 
         
-        .. image:: ../archivos/caja_fuerte.jpeg
-            :width: 200px
+        .. image:: ../archivos/caja_fuerte.png
+            :width: 150px
             :align: center
 
 .. rst-class:: do
@@ -70,9 +70,9 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
             }
         }
 
-.. attention::
+    .. attention::
 
-    Esta implementación es específica para un tipo de dato (en este caso, `String`). 
+        Esta implementación es específica para un tipo de dato (en este caso, `String`). 
 
 .. rst-class:: think 
   
