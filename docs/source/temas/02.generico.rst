@@ -95,10 +95,6 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
      - Element (elemento)
      - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
      - ``public class Caja<E> { E elemento; }``
-   * - K
-     - Key (clave)
-     - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
-     - ``Map<K, V> mapa = new HashMap<>();``
    * - N
      - Number (número)
      - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
@@ -107,6 +103,10 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
      - Type (tipo)
      - Tipo genérico más común, usado en clases y métodos sin contexto específico.
      - ``public class Generico<T> { T dato; }``
+   * - K
+     - Key (clave)
+     - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
+     - ``Map<K, V> mapa = new HashMap<>();``
    * - V
      - Value (valor)
      - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
