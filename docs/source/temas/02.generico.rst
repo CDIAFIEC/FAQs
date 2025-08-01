@@ -278,12 +278,11 @@ Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incl
 Actividades Autónomas
 ---------------------
 
-1. Implemente la clase `Pareja<T1, T2>` que permita almacenar un par de elementos de tipos diferentes. 
+1. Implemente las clases:
 
-   (i) Añada el método `equals()` para comparar dos objetos de tipo `Pareja<T1, T2>` basándose en sus elementos.
-   (ii) Implemente un método `toString()` que retorne una representación en cadena de la pareja, mostrando ambos elementos.
+   (i) `Pareja<T1, T2>` que permita almacenar un par de elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
 
-2. Cree un programa de prueba que instancie un objeto de la clase `Pareja` y muestre sus elementos.
+2. Cree un programa de prueba que instancie un objeto de las clases y muestre sus elementos.
 
 Conclusiones
 ============
