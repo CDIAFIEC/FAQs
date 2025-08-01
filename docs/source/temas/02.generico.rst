@@ -36,7 +36,7 @@ Teoría
 
     Implemente el TDA Caja fuerte en Java, con la clase `CajaFuerte.java`.
 
-A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`POO <../transversales/01.POO>`. Además, instancie de un objeto de la clase Caja fuerte y compruebe sus métodos en el método `main`.
+A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`POO <../transversales/01.POO>`, con un ejemplo de  instanciación y uso de los métodos de clase Caja fuerte.
 
 .. _clase_caja_fuerte:
 
@@ -44,6 +44,7 @@ A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_ca
     :animate: fade-in-slide-down
     
     .. code-block:: java
+        :caption: Clase CajaFuerte.java
 
         public class CajaFuerte {
             private String articulo;
@@ -181,6 +182,7 @@ A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el
 .. _solucion_caja_fuerte:
 
 .. code-block:: java
+    :caption: Clase Genérica CajaFuerte.java
 
     public class CajaFuerte<T> {
         private T articulo;
@@ -234,6 +236,7 @@ La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos genéri
     :animate: fade-in-slide-down
     
     .. code-block:: java
+        :caption: Clase Genérica Nodo.java
 
         public class Nodo<T> {
             private T contenido;
