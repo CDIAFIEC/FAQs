@@ -92,15 +92,22 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
 .. _tipos_parametros:
 
 .. list-table:: Tabla con los tipos de parámetros genéricos en Java
-   :widths: 10 20 35 55
+   :widths: 20 30 50
    :header-rows: 1
 
-   * - Parámetro
-     - Significado
+   * - Parámetro y Significado
      - Uso común
      - Ejemplo de código
-   * - E
-     - Element (elemento)
+
+   * - T - Type (tipo)
+     - Tipo genérico más común, usado en clases y métodos sin contexto específico.
+     - 
+        .. code-block:: java
+
+            public class Generico<T> {
+                T dato;
+            }
+   * - E - Element (elemento)
      - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
      - 
         .. code-block:: java
@@ -108,8 +115,7 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
             public class Caja<E> {
                 E elemento;
             }
-   * - N
-     - Number (número)
+   * - N - Number (número)
      - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
      - 
         .. code-block:: java
@@ -122,18 +128,7 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
                     return this.numero.doubleValue() + otro.doubleValue();
                 }
             }
-   * - T
-     - Type (tipo)
-     - Tipo genérico más común, usado en clases y métodos sin contexto específico.
-     - 
-        .. code-block:: java
-
-            public class Generico<T> {
-                T dato;
-            }
-
-   * - K
-     - Key (clave)
+   * - K - Key (clave)
      - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
      - 
         .. code-block:: java
@@ -141,9 +136,7 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
             public class Mapa<K, V> {
                 private Map<K, V> mapa = new HashMap<K, V>();
             }
-
-   * - V
-     - Value (valor)
+   * - V  - Value (valor)
      - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
      - 
         .. code-block:: java
@@ -152,8 +145,7 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
                 private Map<K, V> diccionario = new HashMap<K, V>();
             }
 
-   * - S, U, V, etc.
-     - Second, Third, Fourth types (segundo, tercero, cuarto tipos)
+   * - S, U, V, etc. - Second, Third, Fourth types (segundo, tercero, cuarto tipos)
      - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
      - 
         .. code-block:: java
@@ -177,46 +169,49 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
             }
 
 
-A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo:
+A continuación, la versión genérica de la clase :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo **<T>** en Java, con un ejemplo de instanciación y uso de los métodos de clase Caja fuerte. 
 
 .. _solucion_caja_fuerte:
 
-.. code-block:: java
-    :caption: Clase Genérica CajaFuerte.java
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
 
-    public class CajaFuerte<T> {
-        private T articulo;
+    .. code-block:: java
+        :caption: Clase Genérica CajaFuerte.java
 
-        public CajaFuerte(T articulo) {
-            this.articulo = articulo;
+        public class CajaFuerte<T> {
+            private T articulo;
+
+            public CajaFuerte(T articulo) {
+                this.articulo = articulo;
+            }
+
+            public void setArticulo(T articulo) {
+                this.articulo = articulo;
+            }
+
+            public T getArticulo() {
+                return this.articulo;
+            }
         }
 
-        public void setArticulo(T articulo) {
-            this.articulo = articulo;
+        public class Main {
+            public static void main(String[] args) {
+
+                CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Aquí comienza el texto de un documento importante ...");
+                System.out.println("Documento guardado: " + cajaFuerte.getArticulo());
+
+                CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
+                System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
+
+                // Asumiendo que Joya es una clase definida previamente
+                Joya joya = new Joya("Anillo de diamantes", 5000.00);
+
+                CajaFuerte<Joya> cajaFuerte3 = new CajaFuerte<Joya>(joya);
+                System.out.println("Joya guardada: " + cajaFuerte3.getArticulo().getNombre());
+
+            }
         }
-
-        public T getArticulo() {
-            return this.articulo;
-        }
-    }
-
-    public class Main {
-        public static void main(String[] args) {
-
-            CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Aquí comienza el texto de un documento importante ...");
-            System.out.println("Documento guardado: " + cajaFuerte.getArticulo());
-
-            CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
-            System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
-
-            // Asumiendo que Joya es una clase definida previamente
-            Joya joya = new Joya("Anillo de diamantes", 5000.00);
-
-            CajaFuerte<Joya> cajaFuerte3 = new CajaFuerte<Joya>(joya);
-            System.out.println("Joya guardada: " + cajaFuerte3.getArticulo().getNombre());
-
-        }
-    }
 
 Práctica
 ========
@@ -228,7 +223,7 @@ Práctica
 Implementación: Nodo.java
 -------------------------
 
-La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos genéricos para crear estructuras de datos flexibles. A continuación, la clase :ref:`Nodo.java <clase_nodo>` con un contenido genérico, que permite almacenar cualquier tipo de dato.
+La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos de datos genéricos en estructuras de datos flexibles. A continuación, la clase :ref:`Nodo.java <clase_nodo>` con un contenido de tipo genérico, que permite almacenar cualquier tipo de dato.
 
 .. _clase_nodo:
 
@@ -260,8 +255,10 @@ La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos genéri
             public static void main(String[] args) {
 
                 Nodo<String> nodo1 = new Nodo<String>("Primer nodo");
+                Nodo<Integer> nodo2 = new Nodo<Integer>(42);
                 
                 System.out.println("Contenido del nodo: " + nodo1.getContenido());
+                System.out.println("Contenido del nodo: " + nodo2.getContenido());
 
             }
         }
