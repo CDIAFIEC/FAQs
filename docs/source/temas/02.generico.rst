@@ -94,27 +94,79 @@ Los tipos de datos genéricos permiten definir clases, interfaces y métodos par
    * - E
      - Element (elemento)
      - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
-     - ``public class Caja<E> { E elemento; }``
+     - 
+        .. code-block:: java
+
+            public class Caja<E> {
+                E elemento;
+            }
    * - N
      - Number (número)
      - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
-     - ``public class Calculadora<N extends Number> {}``
+     - 
+        .. code-block:: java
+
+            public class Calculadora<N extends Number> {
+
+                N numero;
+            
+                public double sumar(N otro) {
+                    return this.numero.doubleValue() + otro.doubleValue();
+                }
+            }
    * - T
      - Type (tipo)
      - Tipo genérico más común, usado en clases y métodos sin contexto específico.
-     - ``public class Generico<T> { T dato; }``
+     - 
+        .. code-block:: java
+
+            public class Generico<T> {
+                T dato;
+            }
+
    * - K
      - Key (clave)
      - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
-     - ``Map<K, V> mapa = new HashMap<>();``
+     - 
+        .. code-block:: java
+
+            public class Mapa<K, V> {
+                private Map<K, V> mapa = new HashMap<K, V>();
+            }
+
    * - V
      - Value (valor)
      - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
-     - ``Map<K, V> diccionario = new HashMap<>();``
+     - 
+        .. code-block:: java
+
+            public class Diccionario<K, V> {
+                private Map<K, V> diccionario = new HashMap<K, V>();
+            }
+
    * - S, U, V, etc.
      - Second, Third, Fourth types (segundo, tercero, cuarto tipos)
      - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
-     - ``public class Par<S, T> { S primero; T segundo; }``
+     - 
+        .. code-block:: java
+
+            public class Par<S, T> {
+                S primero;
+                T segundo;
+
+                public Par(S primero, T segundo) {
+                    this.primero = primero;
+                    this.segundo = segundo;
+                }
+
+                public S getPrimero() {
+                    return primero;
+                }
+
+                public T getSegundo() {
+                    return segundo;
+                }
+            }
 
 
 A continuación, en la :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo:
