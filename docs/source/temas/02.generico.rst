@@ -269,11 +269,23 @@ Ejercicios
 Actividades Virtual Sincrónicas
 -------------------------------
 
+Nodo.java
+^^^^^^^^^
+
 Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluir los siguientes comportamientos y propiedades:
 
 1. Añada un atributo `siguiente` de tipo `Nodo<T>`.
 2. Implemente un método `setSiguiente(Nodo<T> siguiente)` para establecer el siguiente nodo.
 3. Implemente un método `getSiguiente()` para obtener el siguiente nodo.
+
+Canción, Pista y Playlist
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Diseñe e implemente las siguientes clases:
+
+1. `Cancion.java` que representa una canción con atributos como título, artista y duración.
+2. `Pista.java` que representa una pista de audio, que contenga una canción y un número de pista.
+3. `Playlist.java` que representa una lista de pistas, con métodos para añadir, eliminar y listar pistas.
 
 Actividades Autónomas
 ---------------------
