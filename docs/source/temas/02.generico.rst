@@ -269,8 +269,21 @@ Ejercicios
 Actividades Virtual Sincrónicas
 -------------------------------
 
+Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluir los siguientes comportamientos y propiedades:
+
+1. Añada un atributo `siguiente` de tipo `Nodo<T>`.
+2. Implemente un método `setSiguiente(Nodo<T> siguiente)` para establecer el siguiente nodo.
+3. Implemente un método `getSiguiente()` para obtener el siguiente nodo.
+
 Actividades Autónomas
 ---------------------
+
+1. Implemente la clase `Pareja<T1, T2>` que permita almacenar un par de elementos de tipos diferentes. 
+
+   (i) Añada el método `equals()` para comparar dos objetos de tipo `Pareja<T1, T2>` basándose en sus elementos.
+   (ii) Implemente un método `toString()` que retorne una representación en cadena de la pareja, mostrando ambos elementos.
+
+2. Cree un programa de prueba que instancie un objeto de la clase `Pareja` y muestre sus elementos.
 
 Conclusiones
 ============
