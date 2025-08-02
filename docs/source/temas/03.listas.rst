@@ -10,7 +10,7 @@
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Analizar las representaciones y operaciones de listas implementadas con arreglos listas simplemente enlazadas listas doblemente enlazadas y listas circulares mediante el diseño y la codificación de algoritmos que permitan resolver problemas computacionales de forma eficiente y estructurada.
+    Generar soluciones que implementen estructuras de datos secuenciales para la organización y análisis ordenado de conjuntos de datos.
 
 Teoría
 ======

@@ -10,7 +10,7 @@
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender los tipos de datos genéricos mediante la definición implementación y uso de estructuras parametrizadas que permitan reutilizar código con distintos tipos de datos para fomentar la flexibilidad la escalabilidad y la eficiencia en el desarrollo de soluciones computacionales..
+    Proponer soluciones que implementen el principo de abstracción para el modelamiento de datos del mundo real.
 
 Teoría
 ======

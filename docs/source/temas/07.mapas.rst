@@ -4,13 +4,13 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 =========
-05. Colas
+07. Mapas
 =========
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Construir propuestas que apliquen estructuras de datos con prioridad de atención por orden para la gestión de procesos o tareas en orden cronológico.
+    Proponer propuestas que pongan en práctica estructuras de datos asociativas mediante clave-valor para la representación de relaciones entre conceptos o entidades.
 
 Teoría
 ======
@@ -32,5 +32,5 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué es una cola y cuáles son sus características principales?
-    * ¿Cómo se implementan las operaciones básicas de una cola?
+    * ¿Qué son los conjuntos y mapas y cuáles son sus características principales?
+    * ¿Cómo se implementan las operaciones básicas de un conjunto?

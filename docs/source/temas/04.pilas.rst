@@ -10,7 +10,7 @@
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender el concepto de pila mediante la implementación de sus operaciones básicas y el desarrollo de algoritmos y aplicaciones que utilicen esta estructura para resolver problemas que requieren un control estricto del orden de acceso a los datos.
+    Generar soluciones que usen estructuras de datos con prioridad al más reciente para la administración del flujo de decisiones o estados.
 
 Teoría
 ======

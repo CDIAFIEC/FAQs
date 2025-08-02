@@ -10,7 +10,7 @@
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender los tipos de datos mediante el análisis de sus atributos y comportamientos así como la aplicación de tipos de datos genéricos para desarrollar soluciones computacionales que promuevan el pensamiento algorítmico y la reutilización del código.
+    Construir propuestas que implementen el principo de abstracción para el modelamiento de datos del mundo real.
 
 Teoría
 ======

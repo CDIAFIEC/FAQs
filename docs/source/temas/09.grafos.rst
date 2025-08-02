@@ -4,13 +4,13 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 ==========
-08. Grafos
+09. Grafos
 ==========
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender la estructura de grafos mediante la implementación de sus representaciones vértices arcos operaciones recorridos en anchura y profundidad componentes conexas y algoritmos para calcular caminos mínimos y árboles de expansión con el fin de modelar y resolver problemas relacionados con redes y estructuras de datos interconectadas.
+    Construir propuestas que apliquen estructura de nodos y conexiones para el modelamiento de relaciones y rutas entre entidades.
 
 Teoría
 ======
