@@ -15,15 +15,6 @@
 Teoría
 ======
 
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Tipos de Listas
-  
-  ../subtemas/01listas_se.rst
-  ../subtemas/02listas_de.rst
-  ../subtemas/03listas_ci.rst
-
 Práctica
 ========
 
@@ -35,6 +26,16 @@ Actividades Virtual Sincrónicas
 
 Actividades Autónomas
 ---------------------
+
+Tipos de Listas
+===============
+
+.. toctree::
+  :maxdepth: 1
+  
+  ../subtemas/listas/01listas_se.rst
+  ../subtemas/listas/02listas_de.rst
+  ../subtemas/listas/03listas_ci.rst
 
 Conclusiones
 ============
