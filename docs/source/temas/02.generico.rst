@@ -210,14 +210,48 @@ A continuación, la versión genérica de la clase :ref:`CajaFuerte.java <soluci
 Práctica
 ========
 
-.. rst-class:: do 
+.. rst-class:: think
 
-    Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo. Implemente el TDA `Nodo` con la clase `Nodo.java`.
+    Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo.
+
+    .. graphviz::
+        :caption: Composición de un TDA
+        :alt: Gráfico con la composición de un TDA
+        :align: center
+
+        digraph Nodo {
+            graph [
+                label=<<b>Nodo</b>>
+                labelloc="t"
+                fontname="Helvetica,Arial,sans-serif"
+            ]
+            
+            node [
+                fontname="Helvetica,Arial,sans-serif"
+                shape=record
+                style=filled
+                fillcolor=gray95
+            ]
+            
+            graph [
+                rankdir = "LR"
+            ];
+            
+            "node0" [
+                label = <<i>Contenido &lt;T&gt;</i>   >
+                shape = "record"
+            ];
+        }
+    
+.. rst-class:: do
+
+    Implemente el TDA `Nodo` con la clase `Nodo.java`, para almacenar un contenido de tipo genérico (**<T>**).
+
 
 Implementación: Nodo.java
 -------------------------
 
-La clase `Nodo.java` es un ejemplo de cómo se pueden utilizar los tipos de datos genéricos en estructuras de datos flexibles. A continuación, la clase :ref:`Nodo.java <clase_nodo>` con un contenido de tipo genérico, que permite almacenar cualquier tipo de dato.
+A continuación, puedes ver la implementación de la clase :ref:`Nodo.java <clase_nodo>` con un contenido de tipo genérico **<T>** en Java.
 
 .. _clase_nodo:
 
@@ -286,8 +320,8 @@ Actividades Autónomas
 
 1. Implemente las clases:
 
-   (i) `Pareja<T1, T2>` que permita almacenar un par de elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
-   (ii) `Tripleta<T1, T2, T3>` que permita almacenar tres elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
+   (i) `Pareja<K, V>` que permita almacenar un par de elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
+   (ii) `Tripleta<S, U, V>` que permita almacenar tres elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
 
 2. Cree un programa de prueba que instancie un objeto de cada una de las clases y use los métodos implementados para probar su funcionamiento.
 
