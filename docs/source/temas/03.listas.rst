@@ -24,7 +24,7 @@ Teoría
 
     Una lista de compras sirve como una herramienta para la organización y gestión de productos a comprar.
 
-Una lista es una estructura de datos que permite almacenar y organizar un conjunto de elementos de manera secuencial, como se muestra en la imagen con la :ref:`composición de una lista <composicion_de_una_lista>`. Las listas son fundamentales ya que facilitan el manejo de colecciones de datos, permitiendo realizar operaciones como inserción, eliminación y búsqueda de elementos.
+Una lista es una estructura de datos que permite almacenar y organizar un conjunto de elementos de manera secuencial, como se muestra en la imagen con la :ref:`composición de una lista <composicion_de_una_lista>`. 
 
 .. _composicion_de_una_lista:
 
@@ -66,10 +66,33 @@ Una lista es una estructura de datos que permite almacenar y organizar un conjun
         "node1":f1 -> "node2":f1 [ id = 0 ];
     }
 
+Características
+---------------
+
+Las listas son fundamentales ya que facilitan el manejo de colecciones de datos, con las siguientes características:
+
+1. Es una colección de 0 o más elementos. 
+   
+   (i) Puede estar vacía, lo que significa que no contiene elementos.
+   (ii) Todos los elementos son de un mismo tipo.
+
+2. Son estructuras de datos secuenciales.
+
+   (i) Elementos están colocados uno detrás de otro.
+   (ii) Cada elemento de una lista se conoce con el nombre de **NODO**.
+
+3. Son flexibles y dinámicas.
+
+   (i) Permiten agregar o eliminar elementos fácilmente.
+   (ii) No es necesario definir el tamaño de la lista al momento de su creación.
+   (iii) Son mucho más flexibles que los arreglos.
+   (iv) Permiten trabajo *dinámico* con un grupo de elementos.
 
 
 Tipos de Listas
 ---------------
+
+Existen varios tipos de listas, cada una con sus propias características y usos:
 
 .. toctree::
   :maxdepth: 1
