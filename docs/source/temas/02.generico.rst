@@ -293,8 +293,10 @@ Actividades Autónomas
 1. Implemente las clases:
 
    (i) `Pareja<T1, T2>` que permita almacenar un par de elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
+   (ii) `Tripleta<T1, T2, T3>` que permita almacenar tres elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
 
-2. Cree un programa de prueba que instancie un objeto de las clases y muestre sus elementos.
+2. Cree un programa de prueba que instancie un objeto de cada una de las clases y use los métodos implementados para probar su funcionamiento.
+
 
 Conclusiones
 ============

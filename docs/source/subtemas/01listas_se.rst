@@ -3,9 +3,9 @@
   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
   SPDX-License-Identifier: CC-BY-SA-4.0
 
-==========
-03. Listas
-==========
+================================
+03. Listas Simplemente Enlazadas
+================================
 
 .. topic:: Objetivo específico
     :class: objetivo
@@ -14,23 +14,6 @@
 
 Teoría
 ======
-
-Tipos de Listas
----------------
-
-1. Listas Simplemente Enlazadas
-2. Listas Doblemente Enlazadas
-3. Listas Circulares
-4. Listas con Arreglos
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Guías
-  
-  ../subtemas/01listas_se.rst
-  ../subtemas/02listas_de.rst
-  ../subtemas/03listas_ci.rst
-  ../subtemas/04listas_ar.rst
 
 Práctica
 ========
