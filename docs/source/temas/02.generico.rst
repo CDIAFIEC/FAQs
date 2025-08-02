@@ -300,11 +300,36 @@ Actividades Virtual Sincrónicas
 Nodo.java
 ^^^^^^^^^
 
-Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluir los siguientes comportamientos y propiedades:
+Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluya el atributo `siguiente` de tipo `Nodo<T>`. Además de los métodos accesores y modificadores para el atributo `siguiente`.
 
-1. Añada un atributo `siguiente` de tipo `Nodo<T>`.
-2. Implemente un método `setSiguiente(Nodo<T> siguiente)` para establecer el siguiente nodo.
-3. Implemente un método `getSiguiente()` para obtener el siguiente nodo.
+.. graphviz::
+    :caption: Composición de un TDA
+    :alt: Gráfico con la composición de un TDA
+    :align: center
+
+    digraph Nodo {
+        graph [
+            label=<<b>Nodo</b>>
+            labelloc="t"
+            fontname="Helvetica,Arial,sans-serif"
+        ]
+        
+        node [
+            fontname="Helvetica,Arial,sans-serif"
+            shape=record
+            style=filled
+            fillcolor=gray95
+        ]
+        
+        graph [
+            rankdir = "LR"
+        ];
+        
+        "node0" [
+            label = <<i>Contenido &lt;T&gt; </i>  | <b>Siguiente &lt;Nodo&lt;T&gt;&gt;    </b> >
+            shape = "record"
+        ];
+    }
 
 Canción, Pista y Playlist
 ^^^^^^^^^^^^^^^^^^^^^^^^^
