@@ -204,12 +204,6 @@ A continuación, la versión genérica de la clase :ref:`CajaFuerte.java <soluci
                 CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
                 System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
 
-                // Asumiendo que Joya es una clase definida previamente
-                Joya joya = new Joya("Anillo de diamantes", 5000.00);
-
-                CajaFuerte<Joya> cajaFuerte3 = new CajaFuerte<Joya>(joya);
-                System.out.println("Joya guardada: " + cajaFuerte3.getArticulo().getNombre());
-
             }
         }
 
