@@ -6,3 +6,33 @@
 ==================================
 03.02 Listas Doblemente Enlazadas
 ==================================
+
+.. topic:: Objetivo específico
+    :class: objetivo
+
+    Generar soluciones que implementen estructuras de datos secuenciales para la organización y análisis ordenado de conjuntos de datos.
+
+Teoría
+======
+
+Práctica
+========
+
+Ejercicios
+==========
+
+Actividades Virtual Sincrónicas
+-------------------------------
+
+Actividades Autónomas
+---------------------
+
+Conclusiones
+============
+
+.. topic:: Preguntas de cierre
+
+    * ¿Qué son las listas y por qué son importantes en la programación?
+    * ¿Cuáles son las diferencias entre las listas implementadas con arreglos y las listas simplemente enlazadas?
+    * ¿Cuáles son las ventajas y desventajas de usar listas dobles enlazadas en comparación con listas simples?
+    * ¿En qué situaciones sería más apropiado utilizar una lista circular en lugar de una lista lineal?

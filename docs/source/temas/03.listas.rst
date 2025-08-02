@@ -23,7 +23,6 @@ Teoría
   ../subtemas/01listas_se.rst
   ../subtemas/02listas_de.rst
   ../subtemas/03listas_ci.rst
-  ../subtemas/04listas_ar.rst
 
 Práctica
 ========
