@@ -3,9 +3,9 @@
   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
   SPDX-License-Identifier: CC-BY-SA-4.0
 
-================================
-03. Listas Simplemente Enlazadas
-================================
+==================================
+03.01 Listas Simplemente Enlazadas
+==================================
 
 .. topic:: Objetivo específico
     :class: objetivo

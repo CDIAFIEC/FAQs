@@ -15,17 +15,10 @@
 Teoría
 ======
 
-Tipos de Listas
----------------
-
-1. Listas Simplemente Enlazadas
-2. Listas Doblemente Enlazadas
-3. Listas Circulares
-4. Listas con Arreglos
 
 .. toctree::
   :maxdepth: 1
-  :caption: Guías
+  :caption: Tipos de Listas
   
   ../subtemas/01listas_se.rst
   ../subtemas/02listas_de.rst
