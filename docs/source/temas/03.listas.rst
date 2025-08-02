@@ -15,6 +15,9 @@
 Teoría
 ======
 
+Definición
+----------
+
 .. sidebar:: Lista de compras
 
     .. image:: ../archivos/lista.jpg
@@ -87,7 +90,6 @@ Las listas son fundamentales ya que facilitan el manejo de colecciones de datos,
    (ii) No es necesario definir el tamaño de la lista al momento de su creación.
    (iii) Son mucho más flexibles que los arreglos.
    (iv) Permiten trabajo *dinámico* con un grupo de elementos.
-
 
 Tipos de Listas
 ---------------
