@@ -19,14 +19,31 @@ Teoría
 
     .. image:: ../archivos/lista.jpg
        :alt: Lista de compras
-       :width: 100%
+       :width: 30%
        :align: center
 
-    Una lista funciona como una lista de compras, donde cada elemento se agrega en un orden específico y sirve como una herramienta para la organización y gestión de datos.
+    Una lista de compras sirve como una herramienta para la organización y gestión de productos a comprar.
 
-Una lista es una estructura de datos que permite almacenar y organizar un conjunto de elementos de manera secuencial. Las listas son fundamentales ya que facilitan el manejo de colecciones de datos, permitiendo realizar operaciones como inserción, eliminación y búsqueda de elementos.
+Una lista es una estructura de datos que permite almacenar y organizar un conjunto de elementos de manera secuencial, como se muestra en la imagen con la :ref:`composición de una lista <composicion_de_una_lista>`. 
 
+.. _composicion_de_una_lista:
 
+.. graphviz::
+    :caption: Composición de una lista
+    :alt: Gráfico con la composición de una lista
+    :align: center
+
+    digraph Lista {
+        node [shape=record];
+        rankdir=LR;
+        Lista [label="{ Lista | elementos }"];
+        Nodo1 [label="{ Nodo | dato | siguiente }"];
+        Nodo2 [label="{ Nodo | dato | siguiente }"];
+        Nodo3 [label="{ Nodo | dato | siguiente }"];
+        Lista -> Nodo1 -> Nodo2 -> Nodo3;
+    }
+
+Las listas son fundamentales ya que facilitan el manejo de colecciones de datos, permitiendo realizar operaciones como inserción, eliminación y búsqueda de elementos.
 
 Tipos de Listas
 ---------------

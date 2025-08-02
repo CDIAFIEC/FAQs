@@ -215,8 +215,8 @@ Práctica
     Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo.
 
     .. graphviz::
-        :caption: Composición de un TDA
-        :alt: Gráfico con la composición de un TDA
+        :caption: Composición del TDA Nodo Genérico
+        :alt: Gráfico con la composición del TDA Nodo Genérico
         :align: center
 
         digraph Nodo {
@@ -303,8 +303,8 @@ Nodo.java
 Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluya el atributo `siguiente` de tipo `Nodo<T>`. Además de los métodos accesores y modificadores para el atributo `siguiente`.
 
 .. graphviz::
-    :caption: Composición de un TDA
-    :alt: Gráfico con la composición de un TDA
+    :caption: Composición del TDA Nodo Genérico
+    :alt: Gráfico con la composición del TDA Nodo Genérico
     :align: center
 
     digraph Nodo {
