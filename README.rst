@@ -11,6 +11,10 @@ Contenido de clases para las estructuras:
 6. Árboles
 7. Grafos
 
+
+Sitios Utilizados
+=================
+
 Sphinx Design
 -------------
 
@@ -39,3 +43,25 @@ Graphviz en Sphinx
 En `Embedding Graphs Into Your Sphinx Documents <https://jhermann.github.io/blog/python/documentation/2020/03/25/sphinx_ext_graphviz.html>`_ se explica cómo usar Graphviz en Sphinx. Graphviz es una herramienta para crear gráficos a partir de descripciones textuales, lo que permite visualizar estructuras de datos y relaciones de manera clara y concisa.
 
 La documentación del paquete `sphinx.ext.graphviz – Add Graphviz graphs <https://www-sphinx--doc-org.translate.goog/en/master/usage/extensions/graphviz.html>`_.
+
+
+Fuentes
+=======
+
+Visualización
+-------------
+
+* VisuAlgo.net/en. (n.d.). Retrieved from https://visualgo.net/en
+* Graph Playground. (n.d.). Retrieved from https://graphplayground.app/
+* Data Structure Visualizations. (n.d.). Retrieved from https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+
+Teoría
+------
+
+* DSA Tutorial - Learn Data Structures and Algorithms. (2025). Retrieved from https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/
+* Open Data Structures. (n.d.). Retrieved from https://opendatastructures.org/
+
+Retos
+-----
+
+* Solve Data Structures Code Challenges. (n.d.). Retrieved from https://www.hackerrank.com/domains/data-structures
