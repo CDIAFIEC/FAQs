@@ -75,17 +75,7 @@ Las listas son fundamentales ya que facilitan el manejo de colecciones de datos,
    (iii) Son mucho más flexibles que los arreglos.
    (iv) Permiten trabajo *dinámico* con un grupo de elementos.
 
-Tipos de Listas
----------------
 
-Existen varios tipos de listas, cada una con sus propias características y usos:
-
-.. toctree::
-  :maxdepth: 1
-  
-  ../subtemas/listas/01listas_se.rst
-  ../subtemas/listas/02listas_de.rst
-  ../subtemas/listas/03listas_ci.rst
 
 
 2
