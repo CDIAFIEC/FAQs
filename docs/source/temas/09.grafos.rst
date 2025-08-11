@@ -21,12 +21,6 @@ Práctica
 Ejercicios
 ==========
 
-Actividades Virtual Sincrónicas
--------------------------------
-
-Actividades Autónomas
----------------------
-
 Conclusiones
 ============
 
