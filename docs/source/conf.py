@@ -25,6 +25,7 @@ extensions = [
     'sphinx_tabs.tabs',
     "sphinx_design",
     "sphinx_design_elements",
+    'sphinxcontrib.youtube',
     'myst_parser',
 ]
 

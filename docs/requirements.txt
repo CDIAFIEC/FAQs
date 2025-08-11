@@ -7,3 +7,4 @@ sphinx-design-elements
 graphviz
 btd.sphinx.graphviz
 myst-parser==4.0.1
+sphinxcontrib-youtube
