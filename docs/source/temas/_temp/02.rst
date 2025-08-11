@@ -1,0 +1,338 @@
+1
+
+
+.. rst-class:: think
+
+    Diseña el TDA **Caja fuerte** permita guardar un articulo. ¿Qué atributos y métodos consideras necesarios para este TDA? 
+
+.. grid:: 1 1 2 2
+    :gutter: 2
+
+    .. grid-item::
+        
+        Una **Caja fuerte** es un objeto que permite almacenar un artículo de valor, como dinero, joyas o documentos importantes. No es importante el color, el tamaño o la forma de la caja fuerte, sino que cumpla con su función de proteger el artículo guardado.
+
+    .. grid-item:: 
+        
+        .. image:: ../archivos/caja_fuerte.jpeg
+            :width: 150px
+            :align: center
+
+.. rst-class:: do
+
+    Implemente el TDA Caja fuerte en Java, con la clase `CajaFuerte.java`.
+
+A continuación, la versión inicial de la clase :ref:`CajaFuerte.java <clase_caja_fuerte>` en Java, de acuerdo con las características del :doc:`POO <../transversales/01.POO>`, con un ejemplo de  instanciación y uso de los métodos de clase Caja fuerte.
+
+.. _clase_caja_fuerte:
+
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
+    
+    .. code-block:: java
+        :caption: Clase CajaFuerte.java
+
+        public class CajaFuerte {
+            private String articulo;
+
+            public CajaFuerte(String articulo) {
+                this.articulo = articulo;
+            }
+
+            public void setArticulo(String articulo) {
+                this.articulo = articulo;
+            }
+
+            public String getArticulo() {
+                return this.articulo;
+            }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+
+                CajaFuerte cajaFuerte = new CajaFuerte("Artículo valioso");
+                System.out.println("Artículo guardado: " + cajaFuerte.getArticulo());
+
+            }
+        }
+
+    .. attention::
+
+        Esta implementación es específica para un tipo de dato (en este caso, `String`). 
+
+.. rst-class:: think 
+  
+    ¿Qué pasaría si quisiéramos almacenar un objeto de otro tipo (dinero, joyas o documentos importantes)? 
+
+    .. image:: ../archivos/sr-stark-ahora-que-hago.webp
+        :width: 250px
+        :align: center
+
+
+Tipos de Datos Genéricos
+------------------------
+
+Los tipos de datos genéricos permiten definir clases, interfaces y métodos para que pueden trabajar con diferentes tipos de datos sin necesidad de duplicar el código. En la :ref:`tabla con los tipos de parámetros genéricos en Java <tipos_parametros>` se muestran algunos de los más comunes, con sus respectivos ejemplos de código.
+
+.. _tipos_parametros:
+
+.. list-table:: Tabla con los tipos de parámetros genéricos en Java
+   :widths: 20 30 50
+   :header-rows: 1
+
+   * - Parámetro y Significado
+     - Uso común
+     - Ejemplo de código
+
+   * - T - Type (tipo)
+     - Tipo genérico más común, usado en clases y métodos sin contexto específico.
+     - 
+        .. code-block:: java
+
+            public class Generico<T> {
+                T dato;
+            }
+   * - E - Element (elemento)
+     - Se usa en estructuras de datos que almacenan elementos, como en `List<E>`, `Set<E>`, etc.
+     - 
+        .. code-block:: java
+
+            public class Caja<E> {
+                E elemento;
+            }
+   * - N - Number (número)
+     - Indica que el parámetro es un tipo numérico, útil para cálculos genéricos.
+     - 
+        .. code-block:: java
+
+            public class Calculadora<N extends Number> {
+
+                N numero;
+            
+                public double sumar(N otro) {
+                    return this.numero.doubleValue() + otro.doubleValue();
+                }
+            }
+   * - K - Key (clave)
+     - Representa la clave en estructuras tipo mapa, como en `Map<K, V>`.
+     - 
+        .. code-block:: java
+
+            public class Mapa<K, V> {
+                private Map<K, V> mapa = new HashMap<K, V>();
+            }
+   * - V  - Value (valor)
+     - Se usa junto con `K` en estructuras clave–valor, como en `Map<K, V>`.
+     - 
+        .. code-block:: java
+
+            public class Diccionario<K, V> {
+                private Map<K, V> diccionario = new HashMap<K, V>();
+            }
+
+   * - S, U, V, etc. - Second, Third, Fourth types (segundo, tercero, cuarto tipos)
+     - Se utilizan cuando hay múltiples tipos genéricos en métodos o clases complejas, por ejemplo `Pair<T, U>`, `Triple<T, U, V>`.
+     - 
+        .. code-block:: java
+
+            public class Par<S, T> {
+                S primero;
+                T segundo;
+
+                public Par(S primero, T segundo) {
+                    this.primero = primero;
+                    this.segundo = segundo;
+                }
+
+                public S getPrimero() {
+                    return primero;
+                }
+
+                public T getSegundo() {
+                    return segundo;
+                }
+            }
+
+
+A continuación, la versión genérica de la clase :ref:`CajaFuerte.java <solucion_caja_fuerte>` mediante el uso de parámetros de tipo **<T>** en Java, con un ejemplo de instanciación y uso de los métodos de clase Caja fuerte. 
+
+.. _solucion_caja_fuerte:
+
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
+
+    .. code-block:: java
+        :caption: Clase Genérica CajaFuerte.java
+
+        public class CajaFuerte<T> {
+            private T articulo;
+
+            public CajaFuerte(T articulo) {
+                this.articulo = articulo;
+            }
+
+            public void setArticulo(T articulo) {
+                this.articulo = articulo;
+            }
+
+            public T getArticulo() {
+                return this.articulo;
+            }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+
+                CajaFuerte<String> cajaFuerte = new CajaFuerte<String>("Aquí comienza el texto de un documento importante ...");
+                System.out.println("Documento guardado: " + cajaFuerte.getArticulo());
+
+                CajaFuerte<Double> cajaFuerte2 = new CajaFuerte<Double>(2500.75);
+                System.out.println("Dinero guardado: " + cajaFuerte2.getArticulo());
+
+            }
+        }
+
+
+2
+
+
+.. rst-class:: think
+
+    Diseñe el TDA `Nodo` que permita almacenar un contenido de cualquier tipo.
+
+    .. graphviz::
+        :caption: Composición del TDA Nodo Genérico
+        :alt: Gráfico con la composición del TDA Nodo Genérico
+        :align: center
+
+        digraph Nodo {
+            graph [
+                label=<<b>Nodo</b>>
+                labelloc="t"
+                fontname="Helvetica,Arial,sans-serif"
+            ]
+            
+            node [
+                fontname="Helvetica,Arial,sans-serif"
+                shape=record
+                style=filled
+                fillcolor=gray95
+            ]
+            
+            graph [
+                rankdir = "LR"
+            ];
+            
+            "node0" [
+                label = <<i>Contenido &lt;T&gt;</i>   >
+                shape = "record"
+            ];
+        }
+    
+.. rst-class:: do
+
+    Implemente el TDA `Nodo` con la clase `Nodo.java`, para almacenar un contenido de tipo genérico (**<T>**).
+
+
+Implementación: Nodo.java
+-------------------------
+
+A continuación, puedes ver la implementación de la clase :ref:`Nodo.java <clase_nodo>` con un contenido de tipo genérico **<T>** en Java.
+
+.. _clase_nodo:
+
+.. dropdown:: Haga clic para ver la solución
+    :animate: fade-in-slide-down
+    
+    .. code-block:: java
+        :caption: Clase Genérica Nodo.java
+
+        public class Nodo<T> {
+            private T contenido;
+
+            public Nodo(T contenido) {
+                this.contenido = contenido;
+            }
+
+            public T getContenido() {
+                return contenido;
+            }
+
+            public void setContenido(T contenido) {
+                this.contenido = contenido;
+            }
+
+        }
+
+        public class Main {
+
+            public static void main(String[] args) {
+
+                Nodo<String> nodo1 = new Nodo<String>("Primer nodo");
+                Nodo<Integer> nodo2 = new Nodo<Integer>(42);
+                
+                System.out.println("Contenido del nodo: " + nodo1.getContenido());
+                System.out.println("Contenido del nodo: " + nodo2.getContenido());
+
+            }
+        }
+
+3
+
+
+Actividades Virtual Sincrónicas
+-------------------------------
+
+Nodo.java
+^^^^^^^^^
+
+Modifique la implementación de la clase :ref:`Nodo.java <clase_nodo>` para incluya el atributo `siguiente` de tipo `Nodo<T>`. Además de los métodos accesores y modificadores para el atributo `siguiente`.
+
+.. graphviz::
+    :caption: Composición del TDA Nodo Genérico
+    :alt: Gráfico con la composición del TDA Nodo Genérico
+    :align: center
+
+    digraph Nodo {
+        graph [
+            label=<<b>Nodo</b>>
+            labelloc="t"
+            fontname="Helvetica,Arial,sans-serif"
+        ]
+        
+        node [
+            fontname="Helvetica,Arial,sans-serif"
+            shape=record
+            style=filled
+            fillcolor=gray95
+        ]
+        
+        graph [
+            rankdir = "LR"
+        ];
+        
+        "node0" [
+            label = <<i>Contenido &lt;T&gt; </i>  | <b>Siguiente &lt;Nodo&lt;T&gt;&gt;    </b> >
+            shape = "record"
+        ];
+    }
+
+Canción, Pista y Playlist
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Diseñe e implemente las siguientes clases:
+
+1. `Cancion.java` que representa una canción con atributos como título, artista y duración.
+2. `Pista.java` que representa una pista de audio, que contenga una canción y un número de pista.
+3. `Playlist.java` que representa una lista de pistas, con métodos para añadir, eliminar y listar pistas.
+
+Actividades Autónomas
+---------------------
+
+1. Implemente las clases:
+
+   (i) `Pareja<K, V>` que permita almacenar un par de elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
+   (ii) `Tripleta<S, U, V>` que permita almacenar tres elementos de tipos diferentes, incluya los métodos para acceder a los elementos y modificarlos. Además, los métodos `equals()` y `toString()`.
+
+2. Cree un programa de prueba que instancie un objeto de cada una de las clases y use los métodos implementados para probar su funcionamiento.
