@@ -11,6 +11,16 @@ Contenido de clases para las estructuras:
 6. Árboles
 7. Grafos
 
+Sphinx Design
+-------------
+
+En `Sphinx Design <https://sphinx-design.readthedocs.io/en/latest/index.html>`_ se encuentra la documentación sobre el diseño de Sphinx, que incluye elementos de diseño, temas y extensiones para mejorar la presentación de la documentación.
+
+Sphinx Design Elements
+----------------------
+
+En `Sphinx Design Elements <https://sphinx-design-elements.readthedocs.io/en/latest/index.html>`_ se encuentra la documentación sobre los elementos de diseño disponibles para Sphinx.
+
 Graphviz
 --------
 
