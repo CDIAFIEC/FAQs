@@ -287,7 +287,7 @@ Práctica
 ========
 
 Carro.java
-^^^^^^^^^^
+----------
 
 Modifique la implementación de la clase :ref:`Carro.java <clase_carro>` para incluir los siguientes comportamientos y propiedades:
 
@@ -296,6 +296,9 @@ Modifique la implementación de la clase :ref:`Carro.java <clase_carro>` para in
 3. Implemente un método `detener` en la clase Carro que detenga el carro estableciendo la velocidad a 0.
 4. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
 5. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
+
+Fracción
+--------
 
 TDA: Fracción
 ^^^^^^^^^^^^^

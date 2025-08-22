@@ -17,7 +17,7 @@
     Lo más importante el **¿Qué hace?** en lugar de **¿Cómo lo hace?**.
 
 Abstracción
-^^^^^^^^^^^
+===========
 
 La abstracción es un principio fundamental en la programación para simplificar la complejidad de un objeto o sistema. **Menos** detalles de implementación y **más** características esenciales.
 
