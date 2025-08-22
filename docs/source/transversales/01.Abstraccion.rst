@@ -12,7 +12,7 @@
 
     Comprender el concepto de abstracción en programación mediante la simplificación la complejidad al ocultar detalles innecesarios y exponer solo las características esenciales de un objeto o sistema.
 
-.. sidebar:: Abstracción
+.. sidebar:: En resumen
   
     Lo más importante el **¿Qué hace?** en lugar de **¿Cómo lo hace?**.
 

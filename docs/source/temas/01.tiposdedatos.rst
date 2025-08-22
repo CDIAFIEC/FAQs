@@ -174,10 +174,6 @@ Un Tipo de Dato Abstracto (TDA) es una estructura que define un conjunto de valo
         TDA -> operaciones;
     }
 
-
-2
-
-
 TDA: Carro
 ----------
 
@@ -222,7 +218,7 @@ Implementación: Carro.java
 
 .. rst-class:: do 
 
-    Implemente el TDA Carro con la clase `Carro.java`, de acuerdo con las características del :doc:`Paradigma de Programación Orientada a Objetos <../transversales/01.POO>`. Además, la instación de un objeto de la clase Carro y la prueba de sus métodos en el método `main`.
+    Implemente el TDA Carro con la clase `Carro.java`, de acuerdo con las características del :doc:`Paradigma de Programación Orientada a Objetos <../transversales/01.POO>`. Además, instancie de un objeto de la clase Carro y compruebe de sus métodos en el método `main`.
 
 A continuación, la versión inicial de la clase :ref:`Carro.java <clase_carro>` en Java.
 
@@ -301,10 +297,13 @@ Modifique la implementación de la clase :ref:`Carro.java <clase_carro>` para in
 4. Agregue un método `reabastecerCombustible` que permita aumentar la cantidad de combustible disponible en el carro.
 5. Modifique el método `frenar` para que no permita que la velocidad sea negativa.
 
-Fracción
-^^^^^^^^
+TDA: Fracción
+^^^^^^^^^^^^^
 
 1. Diseñe el TDA `Fracción` con las propiedades y los comportamientos necesarios. Asegúrese de que la implementación respete los principios del TDA, es decir, que separe las operaciones del estado interno de la fracción
+
+Fracción.java
+^^^^^^^^^^^^^
 
 2. Implemente el TDA `Fracción` en la clase `Fracción.java` en Java, de acuerdo con las características del Paradigma de Programación Orientada a Objetos:
 
