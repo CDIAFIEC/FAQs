@@ -1,0 +1,13 @@
+..
+  Copyright (c) 2025 Allan Avendaño Sudario
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+==========================================
+01. Abstracción
+==========================================
+
+.. topic:: Objetivo general
+    :class: objetivo
+
+    Comprender el concepto de abstracción en programación mediante la simplificación la complejidad al ocultar detalles innecesarios y exponer solo las características esenciales de un objeto o sistema.
