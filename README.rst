@@ -1,5 +1,5 @@
-ESTRUCTURAS DE DATOS - CCPG1804
-=======================================
+Ciencia de datos e Inteligencia Artificial - FAQs
+================================================
 
 Sitio web 
-https://edv1.readthedocs.io/
+https://cdia.readthedocs.io/
