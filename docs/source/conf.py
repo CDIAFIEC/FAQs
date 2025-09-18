@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Estructuras de Datos'	
-copyright = '2025, Estructuras de Datos'
+project = 'Ciencia de Datos e Inteligencia Artificial'
+copyright = '2025, Ciencia de Datos e Inteligencia Artificial'
 author = 'Allan Avendaño'
 
 release = '0.1'
