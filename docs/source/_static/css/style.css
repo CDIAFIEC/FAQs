@@ -1,4 +1,4 @@
-p.think, p.do {
+/* p.think, p.do {
     text-align: center;
     font-size: 1.30rem;
     margin: 4rem 2rem;
@@ -10,7 +10,7 @@ p.think::before {
 
 p.do::before {
     content: "🛠️" !important;
-}
+} */
 
 
 /* aside.think {

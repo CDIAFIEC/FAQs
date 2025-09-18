@@ -1,4 +1,4 @@
-Ciencia de datos e Inteligencia Artificial
+Ciencia de Datos e Inteligencia Artificial
 ==========================================
 
 Guía del estudiante

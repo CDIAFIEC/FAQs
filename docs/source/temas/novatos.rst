@@ -7,3 +7,5 @@
 Registro de Novatos
 ===================
 
+.. image:: ../archivos/registro.png
+    :align: center   
