@@ -6,15 +6,23 @@ Guía del estudiante
 
 Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inteligencia Artificial. Aquí encontrarás recursos, tutoriales y temas relevantes de tu interés.
 
-.. image:: ./archivos/portada.png
-    :alt: Portada
-    :width: 70%
-    :align: center   
+.. grid:: 2
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Contenidos
-  :glob:
+    .. grid-item-card:: 
 
-  temas/novatos
-  temas/faqs
+        .. toctree::
+            :maxdepth: 1
+            :caption: Contenidos
+            :glob:
+
+            temas/novatos
+            temas/faqs
+
+    .. grid-item-card::
+
+        .. image:: ./archivos/portada.png
+            :alt: Portada
+            :width: 100%
+            :align: center   
+
+
