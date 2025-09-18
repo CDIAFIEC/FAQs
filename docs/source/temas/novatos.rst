@@ -8,4 +8,6 @@ Registro de Novatos
 ===================
 
 .. image:: ../archivos/registro.png
+    :alt: Registro de Novatos
+    :width: 100%
     :align: center   
