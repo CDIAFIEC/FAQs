@@ -4,6 +4,8 @@ Ciencia de datos e Inteligencia Artificial
 Guía del estudiante
 --------------------
 
+Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inteligencia Artificial. Aquí encontrarás recursos, tutoriales y temas relevantes de tu interés.
+
 .. toctree::
   :maxdepth: 1
   :caption: Contenidos
