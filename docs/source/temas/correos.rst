@@ -45,18 +45,21 @@ Indica quién eres y tu contexto académico.
 .. code-block:: text
     :caption: Ejemplo
 
-    Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Desarrollo Web del paralelo 2.
+    Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Desarrollo Web del 
+    paralelo 2.
 
 
 Cuerpo del mensaje
 ------------------
 
-Sé claro, directo y breve. Expón el motivo del correo en uno o dos párrafos. Divide las ideas en párrafos cortos y evita redundancias.
+Sé claro, directo y breve. Expón el motivo del correo en uno o dos párrafos. Divide las ideas en 
+párrafos cortos y evita redundancias.
 
 .. code-block:: text
     :caption: Ejemplo
 
-    Le escribo para consultar sobre la entrega del proyecto final, ya que tengo dudas respecto al formato del documento y los criterios de evaluación.
+    Le escribo para consultar sobre la entrega del proyecto final, ya que tengo dudas respecto al 
+    formato del documento y los criterios de evaluación.
 
 Cierre
 ------
@@ -105,11 +108,14 @@ Incluye información adicional como:
 
     Estimado profesor Pérez,
 
-    Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Estructuras de Datos, paralelo 2.
+    Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Estructuras de Datos, 
+    paralelo 2.
 
-    Le escribo para solicitar una tutoría en la que pueda aclarar mis dudas sobre el tema de listas enlazadas, especialmente en lo relacionado con la inserción de nodos.
+    Le escribo para solicitar una tutoría en la que pueda aclarar mis dudas sobre el tema de 
+    listas enlazadas, especialmente en lo relacionado con la inserción de nodos.
 
-    Le agradezco de antemano su tiempo y apoyo. Quedo atenta a su confirmación sobre la disponibilidad de horarios.
+    Le agradezco de antemano su tiempo y apoyo. Quedo atenta a su confirmación sobre la 
+    disponibilidad de horarios.
 
     Saludos cordiales,
 
