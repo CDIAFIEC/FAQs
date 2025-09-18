@@ -16,7 +16,7 @@ Asunto del correo
 
 Debe ser breve, claro y específico.
 
-Ejemplos:
+.. topic:: Ejemplo
 
     Solicitud de tutoría sobre el tema X
     Consulta sobre la tarea de la semana 3
@@ -28,7 +28,7 @@ Saludo inicial
 
 Utiliza un saludo formal y respetuoso.
 
-Ejemplos:
+.. topic:: Ejemplo
 
     Estimado profesor Pérez:
     Apreciada profesora Gómez:
@@ -40,7 +40,7 @@ Presentación
 
 Indica quién eres y tu contexto académico.
 
-Ejemplo:
+.. topic:: Ejemplo
 
     Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Desarrollo Web del paralelo 2.
 
@@ -50,7 +50,7 @@ Cuerpo del mensaje
 
 Sé claro, directo y breve. Expón el motivo del correo en uno o dos párrafos. Divide las ideas en párrafos cortos y evita redundancias.
 
-Ejemplo:
+.. topic:: Ejemplo
 
     Le escribo para consultar sobre la entrega del proyecto final, ya que tengo dudas respecto al formato del documento y los criterios de evaluación.
 
@@ -59,7 +59,7 @@ Cierre
 
 Agradece la atención y ofrece disponibilidad para aclarar.
 
-Ejemplos:
+.. topic:: Ejemplo
 
     Le agradezco de antemano su tiempo y orientación.
     Quedo atento/a a sus comentarios.
@@ -69,7 +69,7 @@ Despedida
 
 Usa una despedida formal y tu nombre completo.
 
-Ejemplos:
+.. topic:: Ejemplo
 
     Atentamente,
     Cordialmente,
@@ -80,25 +80,30 @@ Firma (opcional pero recomendable)
 
 Incluye información adicional como:
 
-Nombre completo
-Carrera o materia
-Número de matrícula (si aplica)
+* Nombre completo
+* Carrera o materia
+* Número de matrícula (si aplica)
+
+.. topic:: Ejemplos
+
+    Ana López
+    Ciencia de Datos e Inteligencia Artificial
+    Matrícula: 202312345
 
 
-Ejemplo completo de correo
-----------------------------------
+.. admonition:: Ejemplo completo de correo
 
-**Asunto:** Solicitud de tutoría sobre listas en Java
+    **Asunto:** Solicitud de tutoría sobre listas en Java
 
-Estimado profesor Pérez,
+    Estimado profesor Pérez,
 
-Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Estructuras de Datos, paralelo 2.
+    Mi nombre es Ana López, con matrícula 123456, estudiante de la materia Estructuras de Datos, paralelo 2.
 
-Le escribo para solicitar una tutoría en la que pueda aclarar mis dudas sobre el tema de listas enlazadas, especialmente en lo relacionado con la inserción de nodos.
+    Le escribo para solicitar una tutoría en la que pueda aclarar mis dudas sobre el tema de listas enlazadas, especialmente en lo relacionado con la inserción de nodos.
 
-Le agradezco de antemano su tiempo y apoyo. Quedo atenta a su confirmación sobre la disponibilidad de horarios.
+    Le agradezco de antemano su tiempo y apoyo. Quedo atenta a su confirmación sobre la disponibilidad de horarios.
 
-Saludos cordiales,
-Ana López
-Ciencia de Datos e Inteligencia Artificial
-Matrícula: 202312345
+    Saludos cordiales,
+    Ana López
+    Ciencia de Datos e Inteligencia Artificial
+    Matrícula: 202312345
