@@ -16,6 +16,7 @@ Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inte
             :glob:
 
             temas/novatos
+            temas/registros
             temas/correos
             temas/faqs
 
