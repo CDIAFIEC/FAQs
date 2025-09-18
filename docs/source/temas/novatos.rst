@@ -9,5 +9,5 @@ Registro de Novatos
 
 .. image:: ../archivos/registro.png
     :alt: Registro de Novatos
-    :width: 100%
+    :width: 45%
     :align: center   
