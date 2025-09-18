@@ -8,7 +8,7 @@ Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inte
 
 .. grid:: 2
 
-    .. grid-item-card:: 
+    .. grid-item:: 
 
         .. toctree::
             :maxdepth: 1
@@ -18,7 +18,7 @@ Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inte
             temas/novatos
             temas/faqs
 
-    .. grid-item-card::
+    .. grid-item::
 
         .. image:: ./archivos/portada.png
             :alt: Portada
