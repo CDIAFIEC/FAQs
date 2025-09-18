@@ -11,4 +11,5 @@ Bienvenido a la guía del estudiante para aprender sobre Ciencia de Datos e Inte
   :caption: Contenidos
   :glob:
 
-  temas/*
+  temas/novatos
+  temas/faqs
