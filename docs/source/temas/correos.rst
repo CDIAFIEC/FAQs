@@ -34,6 +34,9 @@ Utiliza un saludo formal y respetuoso.
 
     Estimado profesor Pérez,
     Apreciada profesora Gómez,
+
+.. attention::    
+    
     Evita saludos informales como “Hola” o “Qué tal”.
 
 
@@ -101,10 +104,11 @@ Incluye información adicional como:
     Matrícula: 202312345
 
 
-.. code-block:: text
-    :caption: Ejemplo completo de correo
+Ejemplo completo de correo
+--------------------------
 
-    Asunto: Solicitud de tutoría sobre listas en Java
+.. code-block:: text
+    :caption: Asunto: Solicitud de tutoría sobre listas en Java
 
     Estimado profesor Pérez,
 
