@@ -19,7 +19,9 @@ Debe ser breve, claro y específico.
 .. topic:: Ejemplo
 
     Solicitud de tutoría sobre el tema X
+
     Consulta sobre la tarea de la semana 3
+
     Justificación de inasistencia a clase del 15 de septiembre
 
 
@@ -30,8 +32,10 @@ Utiliza un saludo formal y respetuoso.
 
 .. topic:: Ejemplo
 
-    Estimado profesor Pérez:
-    Apreciada profesora Gómez:
+    Estimado profesor Pérez,
+
+    Apreciada profesora Gómez,
+
     Evita saludos informales como “Hola” o “Qué tal”.
 
 
@@ -62,6 +66,7 @@ Agradece la atención y ofrece disponibilidad para aclarar.
 .. topic:: Ejemplo
 
     Le agradezco de antemano su tiempo y orientación.
+
     Quedo atento/a a sus comentarios.
 
 Despedida
@@ -72,7 +77,9 @@ Usa una despedida formal y tu nombre completo.
 .. topic:: Ejemplo
 
     Atentamente,
+
     Cordialmente,
+    
     Saludos cordiales,
 
 Firma (opcional pero recomendable)
@@ -87,7 +94,9 @@ Incluye información adicional como:
 .. topic:: Ejemplos
 
     Ana López
+
     Ciencia de Datos e Inteligencia Artificial
+    
     Matrícula: 202312345
 
 
@@ -104,6 +113,9 @@ Incluye información adicional como:
     Le agradezco de antemano su tiempo y apoyo. Quedo atenta a su confirmación sobre la disponibilidad de horarios.
 
     Saludos cordiales,
+
     Ana López
+    
     Ciencia de Datos e Inteligencia Artificial
+    
     Matrícula: 202312345
