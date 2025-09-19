@@ -7,10 +7,4 @@
 Registro General
 ================
 
-Fechas importantes
-------------------
-
-.. image:: ../archivos/registroPAO.png
-    :alt: Registro en PAO
-    :width: 100%
-    :align: center   
+:pdfembed:`src:_static/pdf/guiadematriculacion.pdf, height:800, width:600, align:middle`

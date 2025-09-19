@@ -27,6 +27,7 @@ extensions = [
     "sphinx_design_elements",
     'sphinxcontrib.youtube',
     'myst_parser',
+    'sphinxcontrib.pdfembed',
 ]
 
 intersphinx_mapping = {
