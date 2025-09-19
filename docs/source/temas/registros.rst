@@ -7,8 +7,8 @@
 Registro General
 ================
 
-.. pdf-include:: _static/pdf/guiadematriculacion.pdf
+.. pdf-include:: ../_static/pdf/guiadematriculacion.pdf
 
 .. raw:: html
 
-   <embed src="_static/pdf/guiadematriculacion.pdf" type="application/pdf" width="100%" height="600px">
+   <embed src="../_static/pdf/guiadematriculacion.pdf" type="application/pdf" width="100%" height="600px">
