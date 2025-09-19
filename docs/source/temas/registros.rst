@@ -7,4 +7,6 @@
 Registro General
 ================
 
-:pdfembed:`src:_static/pdf/guiadematriculacion.pdf, height:800, width:600, align:middle`
+.. pdf-include:: _static/pdf/guiadematriculacion.pdf
+   :width: 100%
+   :align: center
