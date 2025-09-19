@@ -8,4 +8,6 @@ Registro General
 ================
 
 .. pdf-include:: ../_static/pdf/guiadematriculacion.pdf
-   :height: 400px
+   :width: 100%
+   :height: 600px
+   :align: center
